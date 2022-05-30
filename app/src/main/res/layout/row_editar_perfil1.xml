@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="editarPerfil1RowModel" type="com.application.app.modules.editarperfil.data.model.EditarPerfil1RowModel"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintGroup"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtEmail"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_7pxv"
+            android:layout_marginEnd="@dimen/_52pxh"
+            android:layout_marginStart="@dimen/_9pxh"
+            android:layout_width="0dp" android:singleLine="true"
+            android:text="@{editarPerfil1RowModel.txtEmail}"
+            app:layout_constraintBottom_toBottomOf="@+id/imageRectangle8"
+            app:layout_constraintEnd_toEndOf="@+id/imageRectangle8"
+            app:layout_constraintStart_toStartOf="@+id/imageRectangle8"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/txtSansitaSwashedromanregular18_1" tools:text="@string/lbl_email"/>
+        <ImageView android:id="@+id/imageRectangle8"
+            android:layout_height="0dp"
+            android:layout_width="@dimen/_179pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_rectangle8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1.0:0.1396648"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtEmail1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_7pxv"
+            android:layout_marginEnd="@dimen/_52pxh"
+            android:layout_marginStart="@dimen/_9pxh"
+            android:layout_width="0dp" android:singleLine="true"
+            android:text="@{editarPerfil1RowModel.txtEmail1}"
+            app:layout_constraintBottom_toBottomOf="@+id/imageRectangle8"
+            app:layout_constraintEnd_toEndOf="@+id/imageRectangle8"
+            app:layout_constraintStart_toStartOf="@+id/imageRectangle8"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/txtSansitaSwashedromanregular18_1" tools:text="@string/lbl_email"/>
+        <ImageView android:id="@+id/imageRectangle15"
+            android:layout_height="0dp"
+            android:layout_width="@dimen/_179pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_rectangle8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1.0:0.1396648"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

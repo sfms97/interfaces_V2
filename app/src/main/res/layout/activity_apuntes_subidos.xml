@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="apuntesSubidosVM" type="com.application.app.modules.apuntessubidos.data.viewmodel.ApuntesSubidosVM"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintApuntessubidos"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylegray_300">
+        <TextView android:ellipsize="end" android:gravity="center"
+            android:id="@+id/txtApuntesSubidos"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_90pxv"
+            android:layout_marginEnd="@dimen/_100pxh"
+            android:layout_marginStart="@dimen/_100pxh"
+            android:layout_marginTop="@dimen/_32pxv"
+            android:layout_width="0dp" android:singleLine="true"
+            android:text="@{apuntesSubidosVM.apuntesSubidosModel.txtApuntesSubidos}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintGroup391"
+            style="@style/txtSansitaSwashedromanregular18_1" tools:text="@string/lbl_apuntes_subidos"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintGroup391"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtApuntesSubidos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@+id/imagePngkey5"
+                android:layout_height="@dimen/_45pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginStart="@dimen/_193pxh"
+                android:layout_width="@dimen/_42pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_pngkey5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintStart_toEndOf="@+id/imageInterfaceFavor" app:layout_constraintTop_toTopOf="parent"/>
+            <ImageView android:id="@+id/imageInterfaceFavor"
+                android:layout_height="@dimen/_36pxh"
+                android:layout_marginBottom="@dimen/_9pxv"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_width="@dimen/_40pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_interfacefavor_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imagePngkey5"
+                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+            <ImageView android:id="@+id/imagePngkey6"
+                android:layout_height="@dimen/_45pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginStart="@dimen/_193pxh"
+                android:layout_width="@dimen/_42pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_pngkey5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintStart_toEndOf="@+id/imageInterfaceFavor" app:layout_constraintTop_toTopOf="parent"/>
+            <ImageView android:id="@+id/imageInterfaceFavor1"
+                android:layout_height="@dimen/_36pxh"
+                android:layout_marginBottom="@dimen/_9pxv"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_width="@dimen/_40pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_interfacefavor_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imagePngkey5"
+                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
