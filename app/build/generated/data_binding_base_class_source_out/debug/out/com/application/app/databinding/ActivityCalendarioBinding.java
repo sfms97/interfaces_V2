@@ -12,7 +12,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import androidx.recyclerview.widget.RecyclerView;
 import com.application.app.R;
 import com.application.app.modules.calendario.data.viewmodel.CalendarioVM;
 import java.lang.Deprecated;
@@ -20,28 +19,13 @@ import java.lang.Object;
 
 public abstract class ActivityCalendarioBinding extends ViewDataBinding {
   @NonNull
-  public final ConstraintLayout constraintCalendar;
-
-  @NonNull
   public final ConstraintLayout constraintCalendario;
 
   @NonNull
   public final ConstraintLayout constraintGroup289;
 
   @NonNull
-  public final ConstraintLayout constraintGroup295;
-
-  @NonNull
   public final ConstraintLayout constraintGroup302;
-
-  @NonNull
-  public final ConstraintLayout constraintMonth;
-
-  @NonNull
-  public final ImageView imageArrow;
-
-  @NonNull
-  public final ImageView imageArrow1;
 
   @NonNull
   public final ImageView imageGroup;
@@ -59,28 +43,10 @@ public abstract class ActivityCalendarioBinding extends ViewDataBinding {
   public final ImageView imagePngkey1;
 
   @NonNull
-  public final RecyclerView recyclerGrid;
-
-  @NonNull
   public final TextView txtAadirEvento;
 
   @NonNull
-  public final TextView txtAbril2022;
-
-  @NonNull
   public final TextView txtCalendario;
-
-  @NonNull
-  public final TextView txtEditar;
-
-  @NonNull
-  public final TextView txtExamen;
-
-  @NonNull
-  public final TextView txtInterfaces;
-
-  @NonNull
-  public final TextView txtProyecto;
 
   @NonNull
   public final View viewRectangle9;
@@ -89,35 +55,21 @@ public abstract class ActivityCalendarioBinding extends ViewDataBinding {
   protected CalendarioVM mCalendarioVM;
 
   protected ActivityCalendarioBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout constraintCalendar, ConstraintLayout constraintCalendario,
-      ConstraintLayout constraintGroup289, ConstraintLayout constraintGroup295,
-      ConstraintLayout constraintGroup302, ConstraintLayout constraintMonth, ImageView imageArrow,
-      ImageView imageArrow1, ImageView imageGroup, ImageView imageGroup1, ImageView imageGroup2,
-      ImageView imageMenu, ImageView imagePngkey1, RecyclerView recyclerGrid,
-      TextView txtAadirEvento, TextView txtAbril2022, TextView txtCalendario, TextView txtEditar,
-      TextView txtExamen, TextView txtInterfaces, TextView txtProyecto, View viewRectangle9) {
+      ConstraintLayout constraintCalendario, ConstraintLayout constraintGroup289,
+      ConstraintLayout constraintGroup302, ImageView imageGroup, ImageView imageGroup1,
+      ImageView imageGroup2, ImageView imageMenu, ImageView imagePngkey1, TextView txtAadirEvento,
+      TextView txtCalendario, View viewRectangle9) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.constraintCalendar = constraintCalendar;
     this.constraintCalendario = constraintCalendario;
     this.constraintGroup289 = constraintGroup289;
-    this.constraintGroup295 = constraintGroup295;
     this.constraintGroup302 = constraintGroup302;
-    this.constraintMonth = constraintMonth;
-    this.imageArrow = imageArrow;
-    this.imageArrow1 = imageArrow1;
     this.imageGroup = imageGroup;
     this.imageGroup1 = imageGroup1;
     this.imageGroup2 = imageGroup2;
     this.imageMenu = imageMenu;
     this.imagePngkey1 = imagePngkey1;
-    this.recyclerGrid = recyclerGrid;
     this.txtAadirEvento = txtAadirEvento;
-    this.txtAbril2022 = txtAbril2022;
     this.txtCalendario = txtCalendario;
-    this.txtEditar = txtEditar;
-    this.txtExamen = txtExamen;
-    this.txtInterfaces = txtInterfaces;
-    this.txtProyecto = txtProyecto;
     this.viewRectangle9 = viewRectangle9;
   }
 

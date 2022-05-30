@@ -4,6 +4,7 @@ package com.application.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -25,37 +26,25 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
   public final ConstraintLayout constraintSignup;
 
   @NonNull
+  public final EditText editTextTextEmail;
+
+  @NonNull
+  public final EditText editTextTextLastname;
+
+  @NonNull
+  public final EditText editTextTextName;
+
+  @NonNull
+  public final EditText editTextTextPassword;
+
+  @NonNull
+  public final EditText editTextTextPersonName;
+
+  @NonNull
   public final ImageView imageGroup;
 
   @NonNull
   public final ImageView imagePngkey2;
-
-  @NonNull
-  public final ImageView imageRectangle2;
-
-  @NonNull
-  public final ImageView imageRectangle4;
-
-  @NonNull
-  public final ImageView imageRectangle5;
-
-  @NonNull
-  public final ImageView imageRectangle7;
-
-  @NonNull
-  public final ImageView imageRectangle9;
-
-  @NonNull
-  public final TextView txtEmail;
-
-  @NonNull
-  public final TextView txtLastname;
-
-  @NonNull
-  public final TextView txtName;
-
-  @NonNull
-  public final TextView txtPassword;
 
   @NonNull
   public final TextView txtSignUp;
@@ -63,35 +52,26 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
   @NonNull
   public final TextView txtStudyEnjoy;
 
-  @NonNull
-  public final TextView txtUsername;
-
   @Bindable
   protected SignUpVM mSignUpVM;
 
   protected ActivitySignUpBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout constraintGroup308, ConstraintLayout constraintSignup, ImageView imageGroup,
-      ImageView imagePngkey2, ImageView imageRectangle2, ImageView imageRectangle4,
-      ImageView imageRectangle5, ImageView imageRectangle7, ImageView imageRectangle9,
-      TextView txtEmail, TextView txtLastname, TextView txtName, TextView txtPassword,
-      TextView txtSignUp, TextView txtStudyEnjoy, TextView txtUsername) {
+      ConstraintLayout constraintGroup308, ConstraintLayout constraintSignup,
+      EditText editTextTextEmail, EditText editTextTextLastname, EditText editTextTextName,
+      EditText editTextTextPassword, EditText editTextTextPersonName, ImageView imageGroup,
+      ImageView imagePngkey2, TextView txtSignUp, TextView txtStudyEnjoy) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup308 = constraintGroup308;
     this.constraintSignup = constraintSignup;
+    this.editTextTextEmail = editTextTextEmail;
+    this.editTextTextLastname = editTextTextLastname;
+    this.editTextTextName = editTextTextName;
+    this.editTextTextPassword = editTextTextPassword;
+    this.editTextTextPersonName = editTextTextPersonName;
     this.imageGroup = imageGroup;
     this.imagePngkey2 = imagePngkey2;
-    this.imageRectangle2 = imageRectangle2;
-    this.imageRectangle4 = imageRectangle4;
-    this.imageRectangle5 = imageRectangle5;
-    this.imageRectangle7 = imageRectangle7;
-    this.imageRectangle9 = imageRectangle9;
-    this.txtEmail = txtEmail;
-    this.txtLastname = txtLastname;
-    this.txtName = txtName;
-    this.txtPassword = txtPassword;
     this.txtSignUp = txtSignUp;
     this.txtStudyEnjoy = txtStudyEnjoy;
-    this.txtUsername = txtUsername;
   }
 
   public abstract void setSignUpVM(@Nullable SignUpVM signUpVM);

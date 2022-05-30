@@ -35,7 +35,7 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   public final TextView txtLogin;
 
   @NonNull
-  public final TextView txtRegstrate;
+  public final TextView txtRegistrate;
 
   @NonNull
   public final TextView txtStudyEnjoy;
@@ -49,14 +49,14 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   protected ActivityLoginBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout constraintGroup277, EditText editTextTextPassword,
       EditText editTextTextPersonName, ImageView imagePngkey1, TextView txtLogin,
-      TextView txtRegstrate, TextView txtStudyEnjoy, View viewRectangle3) {
+      TextView txtRegistrate, TextView txtStudyEnjoy, View viewRectangle3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup277 = constraintGroup277;
     this.editTextTextPassword = editTextTextPassword;
     this.editTextTextPersonName = editTextTextPersonName;
     this.imagePngkey1 = imagePngkey1;
     this.txtLogin = txtLogin;
-    this.txtRegstrate = txtRegstrate;
+    this.txtRegistrate = txtRegistrate;
     this.txtStudyEnjoy = txtStudyEnjoy;
     this.viewRectangle3 = viewRectangle3;
   }

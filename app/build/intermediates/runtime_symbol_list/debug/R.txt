@@ -4962,7 +4962,6 @@ int id constraint 0x7f090086
 int id constraintAadirAsignatu 0x7f090087
 int id constraintAmpliar 0x7f090088
 int id constraintApuntessubidos 0x7f090089
-int id constraintCalendar 0x7f09008a
 int id constraintCalendario 0x7f09008b
 int id constraintConfirmarlogou 0x7f09008c
 int id constraintEliminar 0x7f09008d
@@ -5010,7 +5009,6 @@ int id constraintGroup277 0x7f0900b6
 int id constraintGroup279 0x7f0900b7
 int id constraintGroup280 0x7f0900b8
 int id constraintGroup289 0x7f0900b9
-int id constraintGroup295 0x7f0900ba
 int id constraintGroup302 0x7f0900bb
 int id constraintGroup308 0x7f0900bc
 int id constraintGroup332 0x7f0900bd
@@ -5028,7 +5026,6 @@ int id constraintGroup399 0x7f0900c8
 int id constraintGroup401 0x7f0900c9
 int id constraintGroup404 0x7f0900ca
 int id constraintLine 0x7f0900cb
-int id constraintMonth 0x7f0900cc
 int id constraintOcio 0x7f0900cd
 int id constraintPerfil 0x7f0900ce
 int id constraintRectangle21 0x7f0900cf
@@ -5079,6 +5076,9 @@ int id easeIn 0x7f0900fb
 int id easeInOut 0x7f0900fc
 int id easeOut 0x7f0900fd
 int id east 0x7f0900fe
+int id editTextTextEmail 0x7f0902fd
+int id editTextTextLastname 0x7f0902fe
+int id editTextTextName 0x7f0902ff
 int id editTextTextPassword 0x7f0902fb
 int id editTextTextPersonName 0x7f0902fc
 int id edit_query 0x7f0900ff
@@ -5126,8 +5126,6 @@ int id ifRoom 0x7f090128
 int id ignore 0x7f090129
 int id ignoreRequest 0x7f09012a
 int id image 0x7f09012b
-int id imageArrow 0x7f09012c
-int id imageArrow1 0x7f09012d
 int id imageCalendarDate 0x7f09012e
 int id imageGroup 0x7f09012f
 int id imageGroup1 0x7f090130
@@ -5159,11 +5157,8 @@ int id imageRectangle 0x7f090149
 int id imageRectangle15 0x7f09014a
 int id imageRectangle17 0x7f09014b
 int id imageRectangle2 0x7f09014c
-int id imageRectangle4 0x7f09014d
-int id imageRectangle5 0x7f09014e
 int id imageRectangle7 0x7f09014f
 int id imageRectangle8 0x7f090150
-int id imageRectangle9 0x7f090151
 int id imageZoomIn 0x7f090152
 int id immediateStop 0x7f090153
 int id included 0x7f090154
@@ -5337,7 +5332,6 @@ int id ratio 0x7f0901fb
 int id rectangle 0x7f0901fc
 int id rectangles 0x7f0901fd
 int id recyclerEditarPerfil 0x7f0901fe
-int id recyclerGrid 0x7f0901ff
 int id restart 0x7f090200
 int id reverse 0x7f090201
 int id reverseSawtooth 0x7f090202
@@ -5468,7 +5462,6 @@ int id txt 0x7f09027e
 int id txtAadir 0x7f09027f
 int id txtAadirAsignatura 0x7f090280
 int id txtAadirEvento 0x7f090281
-int id txtAbril2022 0x7f090282
 int id txtAmpliar 0x7f090283
 int id txtAppNavigation 0x7f090284
 int id txtApuntes 0x7f090285
@@ -5510,7 +5503,6 @@ int id txtEventoEliminad1 0x7f0902a8
 int id txtEventoEliminadp 0x7f0902a9
 int id txtEventoModificado 0x7f0902aa
 int id txtEventos 0x7f0902ab
-int id txtExamen 0x7f0902ac
 int id txtFecha 0x7f0902ad
 int id txtFirstname 0x7f0902ae
 int id txtFirstname1 0x7f0902af
@@ -5518,23 +5510,19 @@ int id txtFotoSubida 0x7f0902b0
 int id txtFotoSubida1 0x7f0902b1
 int id txtFsica 0x7f0902b2
 int id txtHistoria 0x7f0902b3
-int id txtInterfaces 0x7f0902b4
 int id txtInterfacesDeU 0x7f0902b5
 int id txtLastname 0x7f0902b6
 int id txtLastname1 0x7f0902b7
 int id txtLogin 0x7f0902b8
 int id txtMenuDesplegable 0x7f0902b9
 int id txtModificar 0x7f0902ba
-int id txtName 0x7f0902bb
 int id txtNo 0x7f0902bc
 int id txtNombreDeLaAs 0x7f0902bd
 int id txtOcio 0x7f0902be
 int id txtOcioCercano 0x7f0902bf
-int id txtPassword 0x7f0902c0
 int id txtPerfil 0x7f0902c1
 int id txtProgramacin 0x7f0902c2
-int id txtProyecto 0x7f0902c3
-int id txtRegstrate 0x7f0902c4
+int id txtRegistrate 0x7f090300
 int id txtS 0x7f0902c5
 int id txtSeguroQueQui 0x7f0902c6
 int id txtSeleccionaElF 0x7f0902c7

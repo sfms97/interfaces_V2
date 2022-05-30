@@ -1,15 +1,3 @@
-com/application/app/BuildConfig.java
- com.application.app.BuildConfig
-com/application/app/BR.java
- com.application.app.BR
-androidx/databinding/library/baseAdapters/BR.java
- androidx.databinding.library.baseAdapters.BR
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-com/application/app/DataBindingTriggerClass.java
- com.application.app.DataBindingTriggerClass
-androidx/databinding/DataBinderMapperImpl.java
- androidx.databinding.DataBinderMapperImpl
 com/application/app/databinding/RowCalendario1Binding.java
  com.application.app.databinding.RowCalendario1Binding
 com/application/app/databinding/ActivityAAdirAsignaturaBindingImpl.java
@@ -20,10 +8,14 @@ com/application/app/databinding/ActivityCalendarioBinding.java
  com.application.app.databinding.ActivityCalendarioBinding
 com/application/app/databinding/ActivityApuntesBinding.java
  com.application.app.databinding.ActivityApuntesBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
 com/application/app/databinding/ActivityEventoEliminadpBindingImpl.java
  com.application.app.databinding.ActivityEventoEliminadpBindingImpl
 com/application/app/databinding/ActivityAppNavigationBindingImpl.java
  com.application.app.databinding.ActivityAppNavigationBindingImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
 com/application/app/databinding/RowEditarPerfil1BindingImpl.java
  com.application.app.databinding.RowEditarPerfil1BindingImpl
 com/application/app/databinding/ActivityEliminarBinding.java
@@ -34,6 +26,8 @@ com/application/app/databinding/ActivityEditarEventoBindingImpl.java
  com.application.app.databinding.ActivityEditarEventoBindingImpl
 com/application/app/databinding/ActivityApuntesBindingImpl.java
  com.application.app.databinding.ActivityApuntesBindingImpl
+com/application/app/BR.java
+ com.application.app.BR
 com/application/app/databinding/RowCalendario1BindingImpl.java
  com.application.app.databinding.RowCalendario1BindingImpl
 com/application/app/databinding/ActivityPerfilBindingImpl.java
@@ -42,6 +36,8 @@ com/application/app/databinding/ActivityConfirmarLogoutBinding.java
  com.application.app.databinding.ActivityConfirmarLogoutBinding
 com/application/app/databinding/ActivitySignUpBindingImpl.java
  com.application.app.databinding.ActivitySignUpBindingImpl
+com/application/app/DataBindingTriggerClass.java
+ com.application.app.DataBindingTriggerClass
 com/application/app/databinding/RowEditarPerfil1Binding.java
  com.application.app.databinding.RowEditarPerfil1Binding
 com/application/app/databinding/ActivityOcioBindingImpl.java
@@ -102,6 +98,8 @@ com/application/app/databinding/LayoutProgressDialogBinding.java
  com.application.app.databinding.LayoutProgressDialogBinding
 com/application/app/databinding/ActivityPerfilBinding.java
  com.application.app.databinding.ActivityPerfilBinding
+com/application/app/BuildConfig.java
+ com.application.app.BuildConfig
 com/application/app/databinding/ActivityApuntes2BindingImpl.java
  com.application.app.databinding.ActivityApuntes2BindingImpl
 com/application/app/databinding/ActivityAmpliarBinding.java
@@ -116,6 +114,8 @@ com/application/app/databinding/ActivityFotoSubida1BindingImpl.java
  com.application.app.databinding.ActivityFotoSubida1BindingImpl
 com/application/app/databinding/LayoutProgressDialogBindingImpl.java
  com.application.app.databinding.LayoutProgressDialogBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
 com/application/app/databinding/ActivityEventoEliminadpBinding.java
  com.application.app.databinding.ActivityEventoEliminadpBinding
 com/application/app/databinding/ActivityAppNavigationBinding.java
