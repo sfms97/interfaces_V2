@@ -1,0 +1,434 @@
+[
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu_desplegable.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_menu_desplegable.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_11.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_11.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_app_navigation.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_app_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_601_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_601_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pngkey2.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_pngkey2.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_confirmar_logout.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_confirmar_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_editar_perfil.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_editar_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_300_e5.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_300_e5.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_1.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_radius_4.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_radius_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_image1_1.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_image1_1.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_eliminar.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_eliminar.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_12.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_12.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_8.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_8.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\font_sansitaswashedsansitaswashedromanregular400.ttf.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\font\\sansitaswashedsansitaswashedromanregular400.ttf"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_orange_500_e5.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_orange_500_e5.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_orange_500_ce.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_orange_500_ce.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ocio.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_ocio.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_interfacefavor.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_interfacefavor.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_2.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_eventos.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_eventos.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_progress_dialog.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\layout_progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_evento_modificado.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_evento_modificado.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_interfacefavor_1.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_interfacefavor_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_calendardate.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_calendardate.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ampliar.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_ampliar.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_rectangle.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_rectangle.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_lime_100.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_lime_100.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_image_not_found.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\image_not_found.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_rectangle8.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_rectangle8.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_300_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_300_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_black_900_3f_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_black_900_3f_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_rectangle2.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_rectangle2.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_arrow.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_white_a700.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_white_a700.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ver_apuntes.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_ver_apuntes.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_7.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\raw_lottie_loading.json.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\raw\\lottie_loading.json"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_apuntes.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_apuntes.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_apuntes_subidos.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_apuntes_subidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pngkey1.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_pngkey1.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_interfaceremov.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_interfaceremov.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_rectangle17.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_rectangle17.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_apuntes_2.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_apuntes_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_400_93_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_400_93_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pngkey5.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_pngkey5.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_4.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_arrow_1.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_arrow_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_subir_foto.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_subir_foto.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_14.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_14.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_editar_evento.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_editar_evento.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_blue_50_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_blue_50_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_foto_subida1.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_foto_subida1.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_a_adir_asignatura.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_a_adir_asignatura.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\font_interregular400.ttf.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\font\\interregular400.ttf"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\font_interregular700.ttf.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\font\\interregular700.ttf"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group19.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group19.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_600_radius_10.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_600_radius_10.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_400_8c_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_400_8c_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_evento_a_adido.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_evento_a_adido.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_interfaceadd2.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_interfaceadd2.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_black_900_radius_4.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_black_900_radius_4.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_row_editar_perfil1.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\row_editar_perfil1.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_calendario.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_calendario.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_15.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_15.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_amber_700_radius_30.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_amber_700_radius_30.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_5.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_image1.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_image1.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_400_6b_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_400_6b_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_amber_700_radius_20.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_amber_700_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_9.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_9.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_evento_eliminadp.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_evento_eliminadp.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_13.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_13.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_perfil.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_gray_300.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_300.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_zoomin.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_zoomin.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_6.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\font_inter.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\font\\inter.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_foto_subida.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_foto_subida.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_3.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_menu.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\font_sansita_swashed.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\font\\sansita_swashed.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_rectangle2_1.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_rectangle2_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_orange_500_cc.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_orange_500_cc.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_row_calendario1.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\layout\\row_calendario1.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_10.xml.flat",
+        "source": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_10.xml"
+    }
+]

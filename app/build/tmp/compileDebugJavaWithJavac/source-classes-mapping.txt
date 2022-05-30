@@ -1,0 +1,124 @@
+com/application/app/BuildConfig.java
+ com.application.app.BuildConfig
+com/application/app/BR.java
+ com.application.app.BR
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/application/app/DataBindingTriggerClass.java
+ com.application.app.DataBindingTriggerClass
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/application/app/databinding/RowCalendario1Binding.java
+ com.application.app.databinding.RowCalendario1Binding
+com/application/app/databinding/ActivityAAdirAsignaturaBindingImpl.java
+ com.application.app.databinding.ActivityAAdirAsignaturaBindingImpl
+com/application/app/databinding/ActivityMenuDesplegableBinding.java
+ com.application.app.databinding.ActivityMenuDesplegableBinding
+com/application/app/databinding/ActivityCalendarioBinding.java
+ com.application.app.databinding.ActivityCalendarioBinding
+com/application/app/databinding/ActivityApuntesBinding.java
+ com.application.app.databinding.ActivityApuntesBinding
+com/application/app/databinding/ActivityEventoEliminadpBindingImpl.java
+ com.application.app.databinding.ActivityEventoEliminadpBindingImpl
+com/application/app/databinding/ActivityAppNavigationBindingImpl.java
+ com.application.app.databinding.ActivityAppNavigationBindingImpl
+com/application/app/databinding/RowEditarPerfil1BindingImpl.java
+ com.application.app.databinding.RowEditarPerfil1BindingImpl
+com/application/app/databinding/ActivityEliminarBinding.java
+ com.application.app.databinding.ActivityEliminarBinding
+com/application/app/databinding/ActivityEditarPerfilBindingImpl.java
+ com.application.app.databinding.ActivityEditarPerfilBindingImpl
+com/application/app/databinding/ActivityEditarEventoBindingImpl.java
+ com.application.app.databinding.ActivityEditarEventoBindingImpl
+com/application/app/databinding/ActivityApuntesBindingImpl.java
+ com.application.app.databinding.ActivityApuntesBindingImpl
+com/application/app/databinding/RowCalendario1BindingImpl.java
+ com.application.app.databinding.RowCalendario1BindingImpl
+com/application/app/databinding/ActivityPerfilBindingImpl.java
+ com.application.app.databinding.ActivityPerfilBindingImpl
+com/application/app/databinding/ActivityConfirmarLogoutBinding.java
+ com.application.app.databinding.ActivityConfirmarLogoutBinding
+com/application/app/databinding/ActivitySignUpBindingImpl.java
+ com.application.app.databinding.ActivitySignUpBindingImpl
+com/application/app/databinding/RowEditarPerfil1Binding.java
+ com.application.app.databinding.RowEditarPerfil1Binding
+com/application/app/databinding/ActivityOcioBindingImpl.java
+ com.application.app.databinding.ActivityOcioBindingImpl
+com/application/app/databinding/ActivityEventoModificadoBindingImpl.java
+ com.application.app.databinding.ActivityEventoModificadoBindingImpl
+com/application/app/databinding/ActivityEventoModificadoBinding.java
+ com.application.app.databinding.ActivityEventoModificadoBinding
+com/application/app/DataBinderMapperImpl.java
+ com.application.app.DataBinderMapperImpl
+ com.application.app.DataBinderMapperImpl$InnerBrLookup
+ com.application.app.DataBinderMapperImpl$InnerLayoutIdLookup
+com/application/app/databinding/ActivityApuntesSubidosBinding.java
+ com.application.app.databinding.ActivityApuntesSubidosBinding
+com/application/app/databinding/ActivitySignUpBinding.java
+ com.application.app.databinding.ActivitySignUpBinding
+com/application/app/databinding/ActivityEditarPerfilBinding.java
+ com.application.app.databinding.ActivityEditarPerfilBinding
+com/application/app/databinding/ActivityFotoSubidaBindingImpl.java
+ com.application.app.databinding.ActivityFotoSubidaBindingImpl
+com/application/app/databinding/ActivityEventoAAdidoBinding.java
+ com.application.app.databinding.ActivityEventoAAdidoBinding
+com/application/app/databinding/ActivitySubirFotoBindingImpl.java
+ com.application.app.databinding.ActivitySubirFotoBindingImpl
+com/application/app/databinding/ActivityVerApuntesBindingImpl.java
+ com.application.app.databinding.ActivityVerApuntesBindingImpl
+com/application/app/databinding/ActivityFotoSubidaBinding.java
+ com.application.app.databinding.ActivityFotoSubidaBinding
+com/application/app/databinding/ActivityEventoAAdidoBindingImpl.java
+ com.application.app.databinding.ActivityEventoAAdidoBindingImpl
+com/application/app/databinding/ActivityAAdirAsignaturaBinding.java
+ com.application.app.databinding.ActivityAAdirAsignaturaBinding
+com/application/app/databinding/ActivityEventosBindingImpl.java
+ com.application.app.databinding.ActivityEventosBindingImpl
+com/application/app/databinding/ActivityFotoSubida1Binding.java
+ com.application.app.databinding.ActivityFotoSubida1Binding
+com/application/app/databinding/ActivityEventosBinding.java
+ com.application.app.databinding.ActivityEventosBinding
+com/application/app/databinding/ActivityLoginBindingImpl.java
+ com.application.app.databinding.ActivityLoginBindingImpl
+com/application/app/databinding/ActivityOcioBinding.java
+ com.application.app.databinding.ActivityOcioBinding
+com/application/app/databinding/ActivityCalendarioBindingImpl.java
+ com.application.app.databinding.ActivityCalendarioBindingImpl
+com/application/app/databinding/ActivityApuntesSubidosBindingImpl.java
+ com.application.app.databinding.ActivityApuntesSubidosBindingImpl
+com/application/app/databinding/ActivityEliminarBindingImpl.java
+ com.application.app.databinding.ActivityEliminarBindingImpl
+com/application/app/databinding/ActivityLoginBinding.java
+ com.application.app.databinding.ActivityLoginBinding
+com/application/app/databinding/ActivitySubirFotoBinding.java
+ com.application.app.databinding.ActivitySubirFotoBinding
+com/application/app/databinding/ActivityAmpliarBindingImpl.java
+ com.application.app.databinding.ActivityAmpliarBindingImpl
+com/application/app/databinding/ActivityApuntes2Binding.java
+ com.application.app.databinding.ActivityApuntes2Binding
+com/application/app/databinding/LayoutProgressDialogBinding.java
+ com.application.app.databinding.LayoutProgressDialogBinding
+com/application/app/databinding/ActivityPerfilBinding.java
+ com.application.app.databinding.ActivityPerfilBinding
+com/application/app/databinding/ActivityApuntes2BindingImpl.java
+ com.application.app.databinding.ActivityApuntes2BindingImpl
+com/application/app/databinding/ActivityAmpliarBinding.java
+ com.application.app.databinding.ActivityAmpliarBinding
+com/application/app/databinding/ActivityConfirmarLogoutBindingImpl.java
+ com.application.app.databinding.ActivityConfirmarLogoutBindingImpl
+com/application/app/databinding/ActivityVerApuntesBinding.java
+ com.application.app.databinding.ActivityVerApuntesBinding
+com/application/app/databinding/ActivityMenuDesplegableBindingImpl.java
+ com.application.app.databinding.ActivityMenuDesplegableBindingImpl
+com/application/app/databinding/ActivityFotoSubida1BindingImpl.java
+ com.application.app.databinding.ActivityFotoSubida1BindingImpl
+com/application/app/databinding/LayoutProgressDialogBindingImpl.java
+ com.application.app.databinding.LayoutProgressDialogBindingImpl
+com/application/app/databinding/ActivityEventoEliminadpBinding.java
+ com.application.app.databinding.ActivityEventoEliminadpBinding
+com/application/app/databinding/ActivityAppNavigationBinding.java
+ com.application.app.databinding.ActivityAppNavigationBinding
+com/application/app/databinding/ActivityEditarEventoBinding.java
+ com.application.app.databinding.ActivityEditarEventoBinding
