@@ -16,14 +16,13 @@ public class ActivityEventosBindingImpl extends ActivityEventosBinding  {
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.scrollViewScrollview, 10);
         sViewsWithIds.put(R.id.constraintGroup197, 11);
-        sViewsWithIds.put(R.id.imageGroup27, 12);
-        sViewsWithIds.put(R.id.viewRectangle3, 13);
-        sViewsWithIds.put(R.id.viewRectangle2, 14);
-        sViewsWithIds.put(R.id.constraintGroup189, 15);
-        sViewsWithIds.put(R.id.imageCalendarDate, 16);
-        sViewsWithIds.put(R.id.viewRectangle10, 17);
-        sViewsWithIds.put(R.id.viewRectangle17, 18);
-        sViewsWithIds.put(R.id.constraintGroup188, 19);
+        sViewsWithIds.put(R.id.viewRectangle3, 12);
+        sViewsWithIds.put(R.id.viewRectangle2, 13);
+        sViewsWithIds.put(R.id.constraintGroup189, 14);
+        sViewsWithIds.put(R.id.imageCalendarDate, 15);
+        sViewsWithIds.put(R.id.viewRectangle10, 16);
+        sViewsWithIds.put(R.id.viewRectangle17, 17);
+        sViewsWithIds.put(R.id.constraintGroup188, 18);
     }
     // views
     // variables
@@ -32,16 +31,15 @@ public class ActivityEventosBindingImpl extends ActivityEventosBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityEventosBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 19, sIncludes, sViewsWithIds));
     }
     private ActivityEventosBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[19]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[15]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[18]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[14]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[11]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (android.widget.ImageView) bindings[16]
-            , (android.widget.ImageView) bindings[12]
+            , (android.widget.ImageView) bindings[15]
             , (android.widget.ImageView) bindings[9]
             , (android.widget.ImageView) bindings[8]
             , (android.widget.ScrollView) bindings[10]
@@ -52,10 +50,10 @@ public class ActivityEventosBindingImpl extends ActivityEventosBinding  {
             , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[6]
             , (android.widget.TextView) bindings[4]
+            , (android.view.View) bindings[16]
             , (android.view.View) bindings[17]
-            , (android.view.View) bindings[18]
-            , (android.view.View) bindings[14]
             , (android.view.View) bindings[13]
+            , (android.view.View) bindings[12]
             );
         this.constraintGroup200.setTag(null);
         this.imageMenu.setTag(null);

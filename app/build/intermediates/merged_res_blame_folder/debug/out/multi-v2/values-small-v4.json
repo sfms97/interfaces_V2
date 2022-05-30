@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alext\\.gradle\\caches\\transforms-3\\4f09b7f07416c9161a21367b6c637a56\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\4f09b7f07416c9161a21367b6c637a56\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

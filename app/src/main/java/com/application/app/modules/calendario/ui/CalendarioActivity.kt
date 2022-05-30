@@ -25,7 +25,7 @@ public class CalendarioActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val recyclerGridAdapter =
     RecyclerGridAdapter(viewModel.recyclerGridList.value?:mutableListOf())
-    binding.recyclerGrid.adapter = recyclerGridAdapter
+   // binding.recyclerGrid.adapter = recyclerGridAdapter
     recyclerGridAdapter.setOnItemClickListener(
     object : RecyclerGridAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Calendario1RowModel) {
@@ -40,8 +40,7 @@ public class CalendarioActivity :
   }
 
   public override fun setUpClicks(): Unit {
-    binding.txtProyecto.setOnClickListener {
-      val destIntent = EditarEventoActivity.getIntent(this, null)
+/*      val destIntent = EditarEventoActivity.getIntent(this, null)
       startActivity(destIntent)
     }
     binding.txtExamen.setOnClickListener {
@@ -51,7 +50,7 @@ public class CalendarioActivity :
     binding.txtInterfaces.setOnClickListener {
       val destIntent = EditarEventoActivity.getIntent(this, null)
       startActivity(destIntent)
-    }
+    }*/
     binding.viewRectangle9.setOnClickListener {
       val destIntent = EventosActivity.getIntent(this, null)
       startActivity(destIntent)

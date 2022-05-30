@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\alext\\OneDrive\\Documentos\\GitHub\\Study&Enjoy\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+            "outputFile": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alext\\.gradle\\caches\\transforms-3\\4f09b7f07416c9161a21367b6c637a56\\transformed\\material-1.4.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-3\\4f09b7f07416c9161a21367b6c637a56\\transformed\\material-1.4.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

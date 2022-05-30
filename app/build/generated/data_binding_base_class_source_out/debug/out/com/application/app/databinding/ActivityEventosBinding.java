@@ -35,9 +35,6 @@ public abstract class ActivityEventosBinding extends ViewDataBinding {
   public final ImageView imageCalendarDate;
 
   @NonNull
-  public final ImageView imageGroup27;
-
-  @NonNull
   public final ImageView imageMenu;
 
   @NonNull
@@ -85,18 +82,16 @@ public abstract class ActivityEventosBinding extends ViewDataBinding {
   protected ActivityEventosBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout constraintGroup188, ConstraintLayout constraintGroup189,
       ConstraintLayout constraintGroup197, ConstraintLayout constraintGroup200,
-      ImageView imageCalendarDate, ImageView imageGroup27, ImageView imageMenu,
-      ImageView imagePngkey2, ScrollView scrollViewScrollview, TextView txt, TextView txtAadir,
-      TextView txtAsignatura, TextView txtComentarios, TextView txtEventos, TextView txtFecha,
-      TextView txtTtulo, View viewRectangle10, View viewRectangle17, View viewRectangle2,
-      View viewRectangle3) {
+      ImageView imageCalendarDate, ImageView imageMenu, ImageView imagePngkey2,
+      ScrollView scrollViewScrollview, TextView txt, TextView txtAadir, TextView txtAsignatura,
+      TextView txtComentarios, TextView txtEventos, TextView txtFecha, TextView txtTtulo,
+      View viewRectangle10, View viewRectangle17, View viewRectangle2, View viewRectangle3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup188 = constraintGroup188;
     this.constraintGroup189 = constraintGroup189;
     this.constraintGroup197 = constraintGroup197;
     this.constraintGroup200 = constraintGroup200;
     this.imageCalendarDate = imageCalendarDate;
-    this.imageGroup27 = imageGroup27;
     this.imageMenu = imageMenu;
     this.imagePngkey2 = imagePngkey2;
     this.scrollViewScrollview = scrollViewScrollview;
