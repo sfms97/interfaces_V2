@@ -12,7 +12,9 @@ import com.application.app.modules.calendario.`data`.model.Calendario1RowModel
 import com.application.app.modules.calendario.`data`.viewmodel.CalendarioVM
 import com.application.app.modules.editarevento.ui.EditarEventoActivity
 import com.application.app.modules.eventos.ui.EventosActivity
+import com.application.app.modules.menudesplegable.ui.MenuDesplegableActivity
 import com.application.app.modules.ocio.ui.OcioActivity
+import com.application.app.modules.signup.ui.SignUpActivity
 import kotlin.Int
 import kotlin.String
 import kotlin.Unit
@@ -23,6 +25,7 @@ public class CalendarioActivity :
 
   public override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
+
     val recyclerGridAdapter =
     RecyclerGridAdapter(viewModel.recyclerGridList.value?:mutableListOf())
    // binding.recyclerGrid.adapter = recyclerGridAdapter
@@ -36,10 +39,15 @@ public class CalendarioActivity :
     viewModel.recyclerGridList.observe(this) {
       recyclerGridAdapter.updateData(it)
     }
+
+
+
+
     binding.calendarioVM = viewModel
   }
 
   public override fun setUpClicks(): Unit {
+
 /*      val destIntent = EditarEventoActivity.getIntent(this, null)
       startActivity(destIntent)
     }
@@ -51,6 +59,14 @@ public class CalendarioActivity :
       val destIntent = EditarEventoActivity.getIntent(this, null)
       startActivity(destIntent)
     }*/
+
+    binding.imageMenu.setOnClickListener {
+      val destIntent = MenuDesplegableActivity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+
+    
+
     binding.viewRectangle9.setOnClickListener {
       val destIntent = EventosActivity.getIntent(this, null)
       startActivity(destIntent)

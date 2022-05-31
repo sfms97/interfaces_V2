@@ -14,13 +14,13 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.imageRectangle2, 9);
-        sViewsWithIds.put(R.id.imageRectangle4, 10);
-        sViewsWithIds.put(R.id.imageRectangle5, 11);
-        sViewsWithIds.put(R.id.imageRectangle9, 12);
-        sViewsWithIds.put(R.id.imageRectangle7, 13);
-        sViewsWithIds.put(R.id.constraintGroup308, 14);
-        sViewsWithIds.put(R.id.imageGroup, 15);
+        sViewsWithIds.put(R.id.editTextTextPersonName, 4);
+        sViewsWithIds.put(R.id.editTextTextName, 5);
+        sViewsWithIds.put(R.id.editTextTextLastname, 6);
+        sViewsWithIds.put(R.id.editTextTextEmail, 7);
+        sViewsWithIds.put(R.id.editTextTextPassword, 8);
+        sViewsWithIds.put(R.id.constraintGroup308, 9);
+        sViewsWithIds.put(R.id.imageGroup, 10);
     }
     // views
     // variables
@@ -29,36 +29,26 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding  {
     // Inverse Binding Event Handlers
 
     public ActivitySignUpBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 11, sIncludes, sViewsWithIds));
     }
     private ActivitySignUpBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[14]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[9]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (android.widget.ImageView) bindings[15]
-            , (android.widget.ImageView) bindings[8]
-            , (android.widget.ImageView) bindings[9]
+            , (android.widget.EditText) bindings[7]
+            , (android.widget.EditText) bindings[6]
+            , (android.widget.EditText) bindings[5]
+            , (android.widget.EditText) bindings[8]
+            , (android.widget.EditText) bindings[4]
             , (android.widget.ImageView) bindings[10]
-            , (android.widget.ImageView) bindings[11]
-            , (android.widget.ImageView) bindings[13]
-            , (android.widget.ImageView) bindings[12]
-            , (android.widget.TextView) bindings[5]
-            , (android.widget.TextView) bindings[2]
-            , (android.widget.TextView) bindings[3]
-            , (android.widget.TextView) bindings[6]
+            , (android.widget.ImageView) bindings[3]
             , (android.widget.TextView) bindings[1]
-            , (android.widget.TextView) bindings[4]
-            , (android.widget.TextView) bindings[7]
+            , (android.widget.TextView) bindings[2]
             );
         this.constraintSignup.setTag(null);
         this.imagePngkey2.setTag(null);
-        this.txtEmail.setTag(null);
-        this.txtLastname.setTag(null);
-        this.txtName.setTag(null);
-        this.txtPassword.setTag(null);
         this.txtSignUp.setTag(null);
         this.txtStudyEnjoy.setTag(null);
-        this.txtUsername.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();
@@ -128,16 +118,11 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String signUpVMSignUpModelTxtLastname = null;
+        androidx.lifecycle.MutableLiveData<com.application.app.modules.signup.data.model.SignUpModel> signUpVMSignUpModel = null;
         java.lang.String signUpVMSignUpModelTxtSignUp = null;
-        java.lang.String signUpVMSignUpModelTxtName = null;
+        com.application.app.modules.signup.data.viewmodel.SignUpVM signUpVM = mSignUpVM;
         java.lang.String signUpVMSignUpModelTxtStudyEnjoy = null;
         com.application.app.modules.signup.data.model.SignUpModel signUpVMSignUpModelGetValue = null;
-        java.lang.String signUpVMSignUpModelTxtPassword = null;
-        androidx.lifecycle.MutableLiveData<com.application.app.modules.signup.data.model.SignUpModel> signUpVMSignUpModel = null;
-        java.lang.String signUpVMSignUpModelTxtUsername = null;
-        java.lang.String signUpVMSignUpModelTxtEmail = null;
-        com.application.app.modules.signup.data.viewmodel.SignUpVM signUpVM = mSignUpVM;
 
         if ((dirtyFlags & 0x7L) != 0) {
 
@@ -157,20 +142,10 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding  {
 
 
                 if (signUpVMSignUpModelGetValue != null) {
-                    // read signUpVM.signUpModel.getValue().txtLastname
-                    signUpVMSignUpModelTxtLastname = signUpVMSignUpModelGetValue.getTxtLastname();
                     // read signUpVM.signUpModel.getValue().txtSignUp
                     signUpVMSignUpModelTxtSignUp = signUpVMSignUpModelGetValue.getTxtSignUp();
-                    // read signUpVM.signUpModel.getValue().txtName
-                    signUpVMSignUpModelTxtName = signUpVMSignUpModelGetValue.getTxtName();
                     // read signUpVM.signUpModel.getValue().txtStudyEnjoy
                     signUpVMSignUpModelTxtStudyEnjoy = signUpVMSignUpModelGetValue.getTxtStudyEnjoy();
-                    // read signUpVM.signUpModel.getValue().txtPassword
-                    signUpVMSignUpModelTxtPassword = signUpVMSignUpModelGetValue.getTxtPassword();
-                    // read signUpVM.signUpModel.getValue().txtUsername
-                    signUpVMSignUpModelTxtUsername = signUpVMSignUpModelGetValue.getTxtUsername();
-                    // read signUpVM.signUpModel.getValue().txtEmail
-                    signUpVMSignUpModelTxtEmail = signUpVMSignUpModelGetValue.getTxtEmail();
                 }
         }
         // batch finished
@@ -182,13 +157,8 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding  {
         if ((dirtyFlags & 0x7L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEmail, signUpVMSignUpModelTxtEmail);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtLastname, signUpVMSignUpModelTxtLastname);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtName, signUpVMSignUpModelTxtName);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtPassword, signUpVMSignUpModelTxtPassword);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtSignUp, signUpVMSignUpModelTxtSignUp);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtStudyEnjoy, signUpVMSignUpModelTxtStudyEnjoy);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtUsername, signUpVMSignUpModelTxtUsername);
         }
     }
     // Listener Stub Implementations

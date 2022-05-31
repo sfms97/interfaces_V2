@@ -41,7 +41,7 @@ public class ActivityLoginBindingImpl extends ActivityLoginBinding  {
         this.constraintGroup277.setTag(null);
         this.imagePngkey1.setTag(null);
         this.txtLogin.setTag(null);
-        this.txtRegstrate.setTag(null);
+        this.txtRegistrate.setTag(null);
         this.txtStudyEnjoy.setTag(null);
         setRootTag(root);
         // listeners
@@ -155,7 +155,7 @@ public class ActivityLoginBindingImpl extends ActivityLoginBinding  {
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtLogin, loginVMLoginModelTxtLogin);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtRegstrate, loginVMLoginModelTxtRegstrate);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtRegistrate, loginVMLoginModelTxtRegstrate);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtStudyEnjoy, loginVMLoginModelTxtStudyEnjoy);
         }
     }

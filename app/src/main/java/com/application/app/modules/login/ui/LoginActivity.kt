@@ -22,7 +22,7 @@ public class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activit
   }
 
   public override fun setUpClicks(): Unit {
-    binding.txtRegstrate.setOnClickListener {
+    binding.txtRegistrate.setOnClickListener {
       val destIntent = SignUpActivity.getIntent(this, null)
       startActivity(destIntent)
     }
