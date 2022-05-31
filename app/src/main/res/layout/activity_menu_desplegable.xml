@@ -75,7 +75,7 @@
                     style="@style/txtSansitaSwashedromanregular18_1"
                     android:layout_width="244dp"
                     android:layout_height="47dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="12dp"
                     android:ellipsize="end"
                     android:gravity="start"
                     android:singleLine="true"
@@ -88,8 +88,8 @@
 
                 <View
                     android:id="@+id/viewRectangle10"
-                    android:layout_width="@dimen/_179pxh"
-                    android:layout_height="@dimen/_25pxv"
+                    android:layout_width="231dp"
+                    android:layout_height="40dp"
                     android:layout_marginTop="4dp"
                     android:background="@drawable/rectangle_bg_gray_400_93_radius_20"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -246,14 +246,30 @@
                     app:layout_constraintTop_toTopOf="@+id/imageGroup73"
                     app:srcCompat="@drawable/img_group_10" />
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/tituloSubirApuntes"
-                    android:layout_width="210dp"
-                    android:layout_height="33dp"
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="216dp"
+                    android:layout_height="39dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="Titulo"
                     app:layout_constraintBottom_toBottomOf="@+id/viewRectangle10"
                     app:layout_constraintEnd_toEndOf="@+id/viewRectangle10"
                     app:layout_constraintStart_toStartOf="@+id/viewRectangle10"
-                    app:layout_constraintTop_toBottomOf="@+id/txtTtulo" />
+                    app:layout_constraintTop_toTopOf="@+id/viewRectangle10" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Asignatura"
+                    app:layout_constraintBottom_toBottomOf="@+id/viewRectangle17"
+                    app:layout_constraintEnd_toEndOf="@+id/viewRectangle17"
+                    app:layout_constraintStart_toStartOf="@+id/viewRectangle17"
+                    app:layout_constraintTop_toTopOf="@+id/viewRectangle17" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
