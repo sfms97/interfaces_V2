@@ -8,49 +8,63 @@
         android:id="@+id/constraintEventoAadido"
         android:layout_height="match_parent"
         android:layout_width="match_parent" style="@style/groupStylegray_300_e5">
-        <TextView android:ellipsize="end" android:gravity="center"
+
+        <TextView
             android:id="@+id/txtEVENTOAADIDO"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_90pxv"
-            android:layout_marginEnd="@dimen/_82pxh"
+            style="@style/txtSansitaSwashedromanregular18_1"
+            android:layout_width="213dp"
+            android:layout_height="47dp"
             android:layout_marginStart="@dimen/_82pxh"
             android:layout_marginTop="@dimen/_32pxv"
-            android:layout_width="0dp" android:singleLine="true"
+            android:layout_marginEnd="@dimen/_82pxh"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
             android:text="@{eventoAAdidoVM.eventoAAdidoModel.txtEVENTOAADIDO}"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintGroup349"
-            style="@style/txtSansitaSwashedromanregular18_1" tools:text="@string/lbl_evento_a_adido"/>
+            app:layout_constraintVertical_bias="0.084"
+            tools:text="@string/lbl_evento_a_adido" />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintGroup349"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_12pxv"
-            android:layout_width="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/txtEVENTOAADIDO"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
-            <ImageView android:id="@+id/imagePngkey5"
-                android:layout_height="@dimen/_45pxh"
-                android:layout_marginEnd="@dimen/_20pxh"
-                android:layout_marginStart="@dimen/_193pxh"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imagePngkey5"
                 android:layout_width="@dimen/_42pxh"
+                android:layout_height="@dimen/_45pxh"
+                android:layout_marginStart="@dimen/_193pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_pngkey5"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.75"
-                app:layout_constraintStart_toEndOf="@+id/imageInterfaceFavor" app:layout_constraintTop_toTopOf="parent"/>
-            <ImageView android:id="@+id/imageInterfaceFavor"
-                android:layout_height="@dimen/_36pxh"
-                android:layout_marginBottom="@dimen/_9pxv"
-                android:layout_marginStart="@dimen/_30pxh"
+                app:layout_constraintStart_toEndOf="@+id/imageInterfaceFavor"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageInterfaceFavor"
                 android:layout_width="@dimen/_40pxh"
+                android:layout_height="@dimen/_36pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginBottom="@dimen/_9pxv"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_interfacefavor"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imagePngkey5"
                 app:layout_constraintHorizontal_bias="0.09"
-                app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

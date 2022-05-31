@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+                                                                                                       
+    
+                                                                                                                                
+           
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintGroup347"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylelime_100" android:tag="layout/activity_menu_desplegable_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ScrollView
+            android:id="@+id/scrollViewScrollview"
+            android:layout_width="412dp"
+            android:layout_height="731dp"
+            android:clipToPadding="false"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintGroup340"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageGroup73"
+                    android:layout_width="413dp"
+                    android:layout_height="54dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group19"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtSubirApuntes"
+                    style="@style/txtSansitaSwashedromanregular36"
+                    android:layout_width="304dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="24dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:tag="binding_1"                                                 
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.518"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintGroup345"
+                    tools:text="@string/lbl_subir_apuntes" />
+
+                <TextView
+                    android:id="@+id/txtTtulo"
+                    style="@style/txtSansitaSwashedromanregular18_1"
+                    android:layout_width="229dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:singleLine="true"
+                    android:tag="binding_2"                                          
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtSubirApuntes"
+                    tools:text="@string/lbl_t_tulo" />
+
+                <TextView
+                    android:id="@+id/txtSeleccionaLaA"
+                    style="@style/txtSansitaSwashedromanregular18_1"
+                    android:layout_width="244dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="16dp"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:singleLine="true"
+                    android:tag="binding_3"                                                  
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.321"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewRectangle10"
+                    tools:text="@string/msg_selecciona_la_a" />
+
+                <View
+                    android:id="@+id/viewRectangle10"
+                    android:layout_width="@dimen/_179pxh"
+                    android:layout_height="@dimen/_25pxv"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/rectangle_bg_gray_400_93_radius_20"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.324"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtTtulo" />
+
+                <View
+                    android:id="@+id/viewRectangle17"
+                    android:layout_width="@dimen/_179pxh"
+                    android:layout_height="@dimen/_25pxv"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rectangle_bg_gray_400_93_radius_20"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.296"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtSeleccionaLaA" />
+
+                <TextView
+                    android:id="@+id/txtSeleccionaElF"
+                    style="@style/txtSansitaSwashedromanregular18_1"
+                    android:layout_width="234dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:singleLine="true"
+                    android:tag="binding_4"                                                  
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.308"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewRectangle17"
+                    tools:text="@string/msg_selecciona_el_f" />
+
+                <TextView
+                    android:id="@+id/txtSubirApuntes1"
+                    style="@style/txtSolidRounded"
+                    android:layout_width="209dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="44dp"
+                    android:clickable="true"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:paddingEnd="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_11pxv"
+                    android:singleLine="true"
+                    android:tag="binding_5"                                                  
+                    app:layout_constraintBottom_toTopOf="@+id/imageGroup73"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.502"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="@string/lbl_subir_apuntes2" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintGroup345"
+                    android:layout_width="412dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imagePngkey4"
+                        android:tag="binding_6"            
+                        android:layout_width="@dimen/_73pxh"
+                        android:layout_height="@dimen/_76pxh"
+                        android:layout_marginEnd="@dimen/_25pxh"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.58"
+                        app:layout_constraintStart_toEndOf="@+id/imageMenu"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:src="@drawable/img_pngkey2" />
+
+                    <ImageView
+                        android:id="@+id/imageMenu"
+                        android:tag="binding_7"         
+                        android:layout_width="@dimen/_64pxh"
+                        android:layout_height="@dimen/_61pxh"
+                        android:layout_marginStart="@dimen/_17pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_marginEnd="@dimen/_141pxh"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imagePngkey4"
+                        app:layout_constraintHorizontal_bias="0.05"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:src="@drawable/img_menu" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:id="@+id/viewRectangle21"
+                    android:layout_width="233dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/rectangle_bg_gray_400_93_radius_20"
+                    app:layout_constraintBottom_toTopOf="@+id/txtSubirApuntes1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.284"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtSeleccionaElF"
+                    app:layout_constraintVertical_bias="0.032" />
+
+                <ImageView
+                    android:id="@+id/imageGroup"
+                    android:layout_width="@dimen/_22pxh"
+                    android:layout_height="@dimen/_22pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group_15"
+                    app:layout_constraintBottom_toTopOf="@+id/txtSubirApuntes1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.231"
+                    app:layout_constraintStart_toEndOf="@+id/viewRectangle21"
+                    app:layout_constraintTop_toBottomOf="@+id/txtSeleccionaElF"
+                    app:layout_constraintVertical_bias="0.109" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:clickable="true"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView20"
+                    app:layout_constraintHorizontal_bias="0.38"
+                    app:layout_constraintStart_toStartOf="@+id/imageGroup73"
+                    app:layout_constraintTop_toTopOf="@+id/imageGroup73"
+                    app:srcCompat="@drawable/img_group_1"
+                    tools:clickable="true" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageGroup73"
+                    app:layout_constraintStart_toStartOf="@+id/imageGroup73"
+                    app:layout_constraintTop_toTopOf="@+id/imageGroup73"
+                    app:srcCompat="@drawable/img_group_12" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:clickable="true"
+                    app:layout_constraintEnd_toEndOf="@+id/imageGroup73"
+                    app:layout_constraintHorizontal_bias="0.682"
+                    app:layout_constraintStart_toEndOf="@+id/imageView20"
+                    app:layout_constraintTop_toTopOf="@+id/imageGroup73"
+                    app:srcCompat="@drawable/img_group_10" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tituloSubirApuntes"
+                    android:layout_width="210dp"
+                    android:layout_height="33dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/viewRectangle10"
+                    app:layout_constraintEnd_toEndOf="@+id/viewRectangle10"
+                    app:layout_constraintStart_toStartOf="@+id/viewRectangle10"
+                    app:layout_constraintTop_toBottomOf="@+id/txtTtulo" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

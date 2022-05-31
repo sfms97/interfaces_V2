@@ -19,10 +19,13 @@ public class ActivityMenuDesplegableBindingImpl extends ActivityMenuDesplegableB
         sViewsWithIds.put(R.id.imageGroup73, 10);
         sViewsWithIds.put(R.id.viewRectangle10, 11);
         sViewsWithIds.put(R.id.viewRectangle17, 12);
-        sViewsWithIds.put(R.id.constraintGroup332, 13);
+        sViewsWithIds.put(R.id.constraintGroup345, 13);
         sViewsWithIds.put(R.id.viewRectangle21, 14);
         sViewsWithIds.put(R.id.imageGroup, 15);
-        sViewsWithIds.put(R.id.constraintGroup345, 16);
+        sViewsWithIds.put(R.id.imageView19, 16);
+        sViewsWithIds.put(R.id.imageView20, 17);
+        sViewsWithIds.put(R.id.imageView21, 18);
+        sViewsWithIds.put(R.id.tituloSubirApuntes, 19);
     }
     // views
     // variables
@@ -31,19 +34,22 @@ public class ActivityMenuDesplegableBindingImpl extends ActivityMenuDesplegableB
     // Inverse Binding Event Handlers
 
     public ActivityMenuDesplegableBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 17, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
     }
     private ActivityMenuDesplegableBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[13]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[9]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[16]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[13]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             , (android.widget.ImageView) bindings[15]
             , (android.widget.ImageView) bindings[10]
             , (android.widget.ImageView) bindings[7]
             , (android.widget.ImageView) bindings[6]
+            , (android.widget.ImageView) bindings[16]
+            , (android.widget.ImageView) bindings[17]
+            , (android.widget.ImageView) bindings[18]
             , (android.widget.ScrollView) bindings[8]
+            , (com.google.android.material.textfield.TextInputLayout) bindings[19]
             , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[1]

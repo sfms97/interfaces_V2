@@ -20,39 +20,49 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             style="@style/txtSansitaSwashedromanregular18_1" tools:text="@string/msg_seguro_que_qui"/>
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintGroup399"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_44pxv"
-            android:layout_marginTop="@dimen/_24pxv"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_marginBottom="@dimen/_44pxv"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/txtSeguroQueQui">
-            <TextView android:clickable="true" android:ellipsize="end"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtSeguroQueQui"
+            app:layout_constraintVertical_bias="0.302">
+
+            <TextView
                 android:id="@+id/txtS"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_23pxh"
-                android:layout_marginStart="@dimen/_38pxh"
-                android:layout_width="wrap_content"
-                android:paddingBottom="@dimen/_16pxv"
+                style="@style/txtSolidRounded_6"
+                android:layout_width="98dp"
+                android:layout_height="65dp"
+                android:layout_marginEnd="68dp"
+                android:clickable="true"
+                android:ellipsize="end"
                 android:paddingStart="@dimen/_30pxh"
                 android:paddingTop="@dimen/_6pxv"
+                android:paddingBottom="@dimen/_16pxv"
                 android:singleLine="true"
                 android:text="@{confirmarLogoutVM.confirmarLogoutModel.txtS}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.19"
-                app:layout_constraintStart_toEndOf="@+id/txtNo"
                 app:layout_constraintTop_toTopOf="parent"
-                style="@style/txtSolidRounded_6" tools:text="@string/lbl_s"/>
-            <TextView android:ellipsize="end" android:id="@+id/txtNo"
-                android:layout_height="wrap_content"
+                app:layout_constraintVertical_bias="0.0"
+                tools:text="@string/lbl_s" />
+
+            <TextView
+                android:id="@+id/txtNo"
+                style="@style/txtSolidRounded_7"
+                android:layout_width="108dp"
+                android:layout_height="60dp"
                 android:layout_marginStart="@dimen/_38pxh"
-                android:layout_width="wrap_content"
-                android:paddingBottom="@dimen/_10pxv"
+                android:ellipsize="end"
                 android:paddingStart="@dimen/_30pxh"
                 android:paddingTop="@dimen/_6pxv"
+                android:paddingBottom="@dimen/_10pxv"
                 android:singleLine="true"
                 android:text="@{confirmarLogoutVM.confirmarLogoutModel.txtNo}"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +70,7 @@
                 app:layout_constraintHorizontal_bias="0.12"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                style="@style/txtSolidRounded_7" tools:text="@string/lbl_no"/>
+                tools:text="@string/lbl_no" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

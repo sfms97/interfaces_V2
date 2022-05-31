@@ -28,9 +28,6 @@ public abstract class ActivityEventoEliminadpBinding extends ViewDataBinding {
   public final ImageView imageInterfaceFavor;
 
   @NonNull
-  public final ImageView imageInterfaceFavor1;
-
-  @NonNull
   public final ImageView imagePngkey5;
 
   @NonNull
@@ -39,26 +36,20 @@ public abstract class ActivityEventoEliminadpBinding extends ViewDataBinding {
   @NonNull
   public final TextView txtEventoEliminad;
 
-  @NonNull
-  public final TextView txtEventoEliminad1;
-
   @Bindable
   protected EventoEliminadpVM mEventoEliminadpVM;
 
   protected ActivityEventoEliminadpBinding(Object _bindingComponent, View _root,
       int _localFieldCount, ConstraintLayout constraintEventoEliminad,
-      ConstraintLayout constraintGroup358, ImageView imageInterfaceFavor,
-      ImageView imageInterfaceFavor1, ImageView imagePngkey5, ImageView imagePngkey6,
-      TextView txtEventoEliminad, TextView txtEventoEliminad1) {
+      ConstraintLayout constraintGroup358, ImageView imageInterfaceFavor, ImageView imagePngkey5,
+      ImageView imagePngkey6, TextView txtEventoEliminad) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintEventoEliminad = constraintEventoEliminad;
     this.constraintGroup358 = constraintGroup358;
     this.imageInterfaceFavor = imageInterfaceFavor;
-    this.imageInterfaceFavor1 = imageInterfaceFavor1;
     this.imagePngkey5 = imagePngkey5;
     this.imagePngkey6 = imagePngkey6;
     this.txtEventoEliminad = txtEventoEliminad;
-    this.txtEventoEliminad1 = txtEventoEliminad1;
   }
 
   public abstract void setEventoEliminadpVM(@Nullable EventoEliminadpVM eventoEliminadpVM);

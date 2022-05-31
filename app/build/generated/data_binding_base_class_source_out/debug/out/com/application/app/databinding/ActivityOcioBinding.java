@@ -46,9 +46,6 @@ public abstract class ActivityOcioBinding extends ViewDataBinding {
   public final ImageView imagePngkey1;
 
   @NonNull
-  public final ImageView imageRectangle;
-
-  @NonNull
   public final ImageView imageRectangle2;
 
   @NonNull
@@ -64,8 +61,7 @@ public abstract class ActivityOcioBinding extends ViewDataBinding {
       ConstraintLayout constraintGroup279, ConstraintLayout constraintGroup280,
       ConstraintLayout constraintOcio, ImageView imageGroup, ImageView imageGroup1,
       ImageView imageGroup2, ImageView imageGroup3, ImageView imageMenu, ImageView imagePngkey1,
-      ImageView imageRectangle, ImageView imageRectangle2, TextView txtBuscar,
-      TextView txtOcioCercano) {
+      ImageView imageRectangle2, TextView txtBuscar, TextView txtOcioCercano) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup279 = constraintGroup279;
     this.constraintGroup280 = constraintGroup280;
@@ -76,7 +72,6 @@ public abstract class ActivityOcioBinding extends ViewDataBinding {
     this.imageGroup3 = imageGroup3;
     this.imageMenu = imageMenu;
     this.imagePngkey1 = imagePngkey1;
-    this.imageRectangle = imageRectangle;
     this.imageRectangle2 = imageRectangle2;
     this.txtBuscar = txtBuscar;
     this.txtOcioCercano = txtOcioCercano;

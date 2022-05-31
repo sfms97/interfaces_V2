@@ -14,19 +14,18 @@ public class ActivityEditarPerfilBindingImpl extends ActivityEditarPerfilBinding
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.scrollViewScrollview, 14);
-        sViewsWithIds.put(R.id.constraintGroup148, 15);
-        sViewsWithIds.put(R.id.imageGroup19, 16);
-        sViewsWithIds.put(R.id.constraintGroup183, 17);
-        sViewsWithIds.put(R.id.constraintGroup163, 18);
-        sViewsWithIds.put(R.id.constraintGroup165, 19);
-        sViewsWithIds.put(R.id.constraintGroup181, 20);
-        sViewsWithIds.put(R.id.constraintGroup167, 21);
-        sViewsWithIds.put(R.id.imageGroup, 22);
-        sViewsWithIds.put(R.id.imageInterfaceAdd2, 23);
-        sViewsWithIds.put(R.id.imageGroup1, 24);
-        sViewsWithIds.put(R.id.imageInterfaceAdd3, 25);
-        sViewsWithIds.put(R.id.constraintGroup160, 26);
+        sViewsWithIds.put(R.id.scrollViewScrollview, 10);
+        sViewsWithIds.put(R.id.constraintGroup148, 11);
+        sViewsWithIds.put(R.id.viewRectangle2, 12);
+        sViewsWithIds.put(R.id.imageGroup19, 13);
+        sViewsWithIds.put(R.id.constraintGroup183, 14);
+        sViewsWithIds.put(R.id.constraintGroup181, 15);
+        sViewsWithIds.put(R.id.imageGroup, 16);
+        sViewsWithIds.put(R.id.imageInterfaceAdd2, 17);
+        sViewsWithIds.put(R.id.constraintGroup160, 18);
+        sViewsWithIds.put(R.id.imageView14, 19);
+        sViewsWithIds.put(R.id.imageView15, 20);
+        sViewsWithIds.put(R.id.imageView16, 21);
     }
     // views
     // variables
@@ -35,52 +34,43 @@ public class ActivityEditarPerfilBindingImpl extends ActivityEditarPerfilBinding
     // Inverse Binding Event Handlers
 
     public ActivityEditarPerfilBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 27, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 22, sIncludes, sViewsWithIds));
     }
     private ActivityEditarPerfilBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[15]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[26]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[11]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[18]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[19]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[21]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[20]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[17]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[15]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[14]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (android.widget.ImageView) bindings[22]
-            , (android.widget.ImageView) bindings[24]
             , (android.widget.ImageView) bindings[16]
-            , (android.widget.ImageView) bindings[23]
-            , (android.widget.ImageView) bindings[25]
             , (android.widget.ImageView) bindings[13]
-            , (android.widget.ImageView) bindings[12]
-            , (androidx.recyclerview.widget.RecyclerView) bindings[7]
-            , (androidx.core.widget.NestedScrollView) bindings[14]
-            , (android.widget.TextView) bindings[1]
-            , (android.widget.TextView) bindings[2]
-            , (android.widget.TextView) bindings[5]
+            , (android.widget.ImageView) bindings[17]
+            , (android.widget.ImageView) bindings[2]
+            , (android.widget.ImageView) bindings[1]
+            , (android.widget.ImageView) bindings[19]
+            , (android.widget.ImageView) bindings[20]
+            , (android.widget.ImageView) bindings[21]
+            , (androidx.core.widget.NestedScrollView) bindings[10]
+            , (android.widget.TextView) bindings[4]
+            , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[6]
-            , (android.widget.TextView) bindings[10]
-            , (android.widget.TextView) bindings[11]
             , (android.widget.TextView) bindings[8]
             , (android.widget.TextView) bindings[9]
             , (android.widget.TextView) bindings[3]
-            , (android.widget.TextView) bindings[4]
+            , (android.widget.TextView) bindings[5]
+            , (android.view.View) bindings[12]
             );
         this.constraintGroup186.setTag(null);
         this.imageMenu.setTag(null);
         this.imagePngkey2.setTag(null);
-        this.recyclerEditarPerfil.setTag(null);
-        this.txtEditar.setTag(null);
+        this.txtBirthdayEditarPerfil.setTag(null);
         this.txtEditar1.setTag(null);
-        this.txtFirstname.setTag(null);
-        this.txtFirstname1.setTag(null);
-        this.txtLastname.setTag(null);
+        this.txtEmailEditarPerfil2.setTag(null);
         this.txtLastname1.setTag(null);
-        this.txtTelfono.setTag(null);
+        this.txtNombreEditarPerfil.setTag(null);
         this.txtTelfono1.setTag(null);
-        this.txtUsername.setTag(null);
-        this.txtUsername1.setTag(null);
+        this.txtUsernameEditarPerfil.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();
@@ -150,18 +140,11 @@ public class ActivityEditarPerfilBindingImpl extends ActivityEditarPerfilBinding
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String editarPerfilVMEditarPerfilModelTxtTelfono = null;
-        java.lang.String editarPerfilVMEditarPerfilModelTxtLastname = null;
         com.application.app.modules.editarperfil.data.viewmodel.EditarPerfilVM editarPerfilVM = mEditarPerfilVM;
         com.application.app.modules.editarperfil.data.model.EditarPerfilModel editarPerfilVMEditarPerfilModelGetValue = null;
         java.lang.String editarPerfilVMEditarPerfilModelTxtEditar1 = null;
-        java.lang.String editarPerfilVMEditarPerfilModelTxtEditar = null;
         java.lang.String editarPerfilVMEditarPerfilModelTxtTelfono1 = null;
-        java.lang.String editarPerfilVMEditarPerfilModelTxtUsername1 = null;
-        java.lang.String editarPerfilVMEditarPerfilModelTxtUsername = null;
-        java.lang.String editarPerfilVMEditarPerfilModelTxtFirstname = null;
         androidx.lifecycle.MutableLiveData<com.application.app.modules.editarperfil.data.model.EditarPerfilModel> editarPerfilVMEditarPerfilModel = null;
-        java.lang.String editarPerfilVMEditarPerfilModelTxtFirstname1 = null;
         java.lang.String editarPerfilVMEditarPerfilModelTxtLastname1 = null;
 
         if ((dirtyFlags & 0x7L) != 0) {
@@ -182,24 +165,10 @@ public class ActivityEditarPerfilBindingImpl extends ActivityEditarPerfilBinding
 
 
                 if (editarPerfilVMEditarPerfilModelGetValue != null) {
-                    // read editarPerfilVM.editarPerfilModel.getValue().txtTelfono
-                    editarPerfilVMEditarPerfilModelTxtTelfono = editarPerfilVMEditarPerfilModelGetValue.getTxtTelfono();
-                    // read editarPerfilVM.editarPerfilModel.getValue().txtLastname
-                    editarPerfilVMEditarPerfilModelTxtLastname = editarPerfilVMEditarPerfilModelGetValue.getTxtLastname();
                     // read editarPerfilVM.editarPerfilModel.getValue().txtEditar1
                     editarPerfilVMEditarPerfilModelTxtEditar1 = editarPerfilVMEditarPerfilModelGetValue.getTxtEditar1();
-                    // read editarPerfilVM.editarPerfilModel.getValue().txtEditar
-                    editarPerfilVMEditarPerfilModelTxtEditar = editarPerfilVMEditarPerfilModelGetValue.getTxtEditar();
                     // read editarPerfilVM.editarPerfilModel.getValue().txtTelfono1
                     editarPerfilVMEditarPerfilModelTxtTelfono1 = editarPerfilVMEditarPerfilModelGetValue.getTxtTelfono1();
-                    // read editarPerfilVM.editarPerfilModel.getValue().txtUsername1
-                    editarPerfilVMEditarPerfilModelTxtUsername1 = editarPerfilVMEditarPerfilModelGetValue.getTxtUsername1();
-                    // read editarPerfilVM.editarPerfilModel.getValue().txtUsername
-                    editarPerfilVMEditarPerfilModelTxtUsername = editarPerfilVMEditarPerfilModelGetValue.getTxtUsername();
-                    // read editarPerfilVM.editarPerfilModel.getValue().txtFirstname
-                    editarPerfilVMEditarPerfilModelTxtFirstname = editarPerfilVMEditarPerfilModelGetValue.getTxtFirstname();
-                    // read editarPerfilVM.editarPerfilModel.getValue().txtFirstname1
-                    editarPerfilVMEditarPerfilModelTxtFirstname1 = editarPerfilVMEditarPerfilModelGetValue.getTxtFirstname1();
                     // read editarPerfilVM.editarPerfilModel.getValue().txtLastname1
                     editarPerfilVMEditarPerfilModelTxtLastname1 = editarPerfilVMEditarPerfilModelGetValue.getTxtLastname1();
                 }
@@ -210,21 +179,17 @@ public class ActivityEditarPerfilBindingImpl extends ActivityEditarPerfilBinding
 
             com.application.app.appcomponents.ui.CustomBindingAdapterKt.loadImageFromResource(this.imageMenu, androidx.appcompat.content.res.AppCompatResources.getDrawable(imageMenu.getContext(), R.drawable.img_menu), (float)0f, (boolean)false);
             com.application.app.appcomponents.ui.CustomBindingAdapterKt.loadImageFromResource(this.imagePngkey2, androidx.appcompat.content.res.AppCompatResources.getDrawable(imagePngkey2.getContext(), R.drawable.img_pngkey2), (float)0f, (boolean)false);
-            com.application.app.appcomponents.ui.CustomBindingAdapterKt.addSpaceBetweenRecyclerItem(this.recyclerEditarPerfil, recyclerEditarPerfil.getResources().getDimension(R.dimen._10pxh), (boolean)false);
         }
         if ((dirtyFlags & 0x7L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEditar, editarPerfilVMEditarPerfilModelTxtEditar);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtBirthdayEditarPerfil, editarPerfilVMEditarPerfilModelTxtTelfono1);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEditar1, editarPerfilVMEditarPerfilModelTxtEditar1);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtFirstname, editarPerfilVMEditarPerfilModelTxtFirstname);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtFirstname1, editarPerfilVMEditarPerfilModelTxtFirstname1);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtLastname, editarPerfilVMEditarPerfilModelTxtLastname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEmailEditarPerfil2, editarPerfilVMEditarPerfilModelTxtTelfono1);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtLastname1, editarPerfilVMEditarPerfilModelTxtLastname1);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtTelfono, editarPerfilVMEditarPerfilModelTxtTelfono);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtNombreEditarPerfil, editarPerfilVMEditarPerfilModelTxtLastname1);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtTelfono1, editarPerfilVMEditarPerfilModelTxtTelfono1);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtUsername, editarPerfilVMEditarPerfilModelTxtUsername);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtUsername1, editarPerfilVMEditarPerfilModelTxtUsername1);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtUsernameEditarPerfil, editarPerfilVMEditarPerfilModelTxtTelfono1);
         }
     }
     // Listener Stub Implementations

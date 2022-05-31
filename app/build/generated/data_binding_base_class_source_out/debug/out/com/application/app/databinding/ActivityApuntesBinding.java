@@ -23,9 +23,6 @@ public abstract class ActivityApuntesBinding extends ViewDataBinding {
   public final ConstraintLayout constraintGroup249;
 
   @NonNull
-  public final ConstraintLayout constraintGroup250;
-
-  @NonNull
   public final ConstraintLayout constraintGroup251;
 
   @NonNull
@@ -45,6 +42,15 @@ public abstract class ActivityApuntesBinding extends ViewDataBinding {
 
   @NonNull
   public final ImageView imagePngkey4;
+
+  @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ImageView imageView3;
 
   @NonNull
   public final ScrollView scrollViewScrollview;
@@ -80,16 +86,15 @@ public abstract class ActivityApuntesBinding extends ViewDataBinding {
   protected ApuntesVM mApuntesVM;
 
   protected ActivityApuntesBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout constraintGroup249, ConstraintLayout constraintGroup250,
-      ConstraintLayout constraintGroup251, ConstraintLayout constraintGroup256,
-      ConstraintLayout constraintGroup257, ConstraintLayout constraintGroup260,
-      ImageView imageGroup52, ImageView imageMenu, ImageView imagePngkey4,
+      ConstraintLayout constraintGroup249, ConstraintLayout constraintGroup251,
+      ConstraintLayout constraintGroup256, ConstraintLayout constraintGroup257,
+      ConstraintLayout constraintGroup260, ImageView imageGroup52, ImageView imageMenu,
+      ImageView imagePngkey4, ImageView imageView, ImageView imageView2, ImageView imageView3,
       ScrollView scrollViewScrollview, TextView txtAadir, TextView txtAsignaturas,
       TextView txtEliminar, TextView txtFsica, TextView txtHistoria, TextView txtInterfacesDeU,
       TextView txtProgramacin, View viewRectangle19, View viewRectangle20) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup249 = constraintGroup249;
-    this.constraintGroup250 = constraintGroup250;
     this.constraintGroup251 = constraintGroup251;
     this.constraintGroup256 = constraintGroup256;
     this.constraintGroup257 = constraintGroup257;
@@ -97,6 +102,9 @@ public abstract class ActivityApuntesBinding extends ViewDataBinding {
     this.imageGroup52 = imageGroup52;
     this.imageMenu = imageMenu;
     this.imagePngkey4 = imagePngkey4;
+    this.imageView = imageView;
+    this.imageView2 = imageView2;
+    this.imageView3 = imageView3;
     this.scrollViewScrollview = scrollViewScrollview;
     this.txtAadir = txtAadir;
     this.txtAsignaturas = txtAsignaturas;

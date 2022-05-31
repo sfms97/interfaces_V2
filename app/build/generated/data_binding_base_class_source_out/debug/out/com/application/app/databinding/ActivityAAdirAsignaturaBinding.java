@@ -33,23 +33,19 @@ public abstract class ActivityAAdirAsignaturaBinding extends ViewDataBinding {
   @NonNull
   public final TextView txtNombreDeLaAs;
 
-  @NonNull
-  public final View viewRectangle29;
-
   @Bindable
   protected AAdirAsignaturaVM mAAdirAsignaturaVM;
 
   protected ActivityAAdirAsignaturaBinding(Object _bindingComponent, View _root,
       int _localFieldCount, ConstraintLayout constraintAadirAsignatu,
       ConstraintLayout constraintGroup351, ImageView imageInterfaceFavor, ImageView imagePngkey5,
-      TextView txtNombreDeLaAs, View viewRectangle29) {
+      TextView txtNombreDeLaAs) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintAadirAsignatu = constraintAadirAsignatu;
     this.constraintGroup351 = constraintGroup351;
     this.imageInterfaceFavor = imageInterfaceFavor;
     this.imagePngkey5 = imagePngkey5;
     this.txtNombreDeLaAs = txtNombreDeLaAs;
-    this.viewRectangle29 = viewRectangle29;
   }
 
   public abstract void setAAdirAsignaturaVM(@Nullable AAdirAsignaturaVM aAdirAsignaturaVM);

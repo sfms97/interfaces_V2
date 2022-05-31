@@ -16,6 +16,8 @@ com/application/app/databinding/ActivityAppNavigationBindingImpl.java
  com.application.app.databinding.ActivityAppNavigationBindingImpl
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
+com/application/app/databinding/AppBarMainBinding.java
+ com.application.app.databinding.AppBarMainBinding
 com/application/app/databinding/RowEditarPerfil1BindingImpl.java
  com.application.app.databinding.RowEditarPerfil1BindingImpl
 com/application/app/databinding/ActivityEliminarBinding.java
@@ -28,6 +30,8 @@ com/application/app/databinding/ActivityApuntesBindingImpl.java
  com.application.app.databinding.ActivityApuntesBindingImpl
 com/application/app/BR.java
  com.application.app.BR
+com/application/app/databinding/FragmentHomeBinding.java
+ com.application.app.databinding.FragmentHomeBinding
 com/application/app/databinding/RowCalendario1BindingImpl.java
  com.application.app.databinding.RowCalendario1BindingImpl
 com/application/app/databinding/ActivityPerfilBindingImpl.java
@@ -36,6 +40,9 @@ com/application/app/databinding/ActivityConfirmarLogoutBinding.java
  com.application.app.databinding.ActivityConfirmarLogoutBinding
 com/application/app/databinding/ActivitySignUpBindingImpl.java
  com.application.app.databinding.ActivitySignUpBindingImpl
+com/application/app/ui/gallery/GalleryFragment.java
+ com.application.app.ui.gallery.GalleryFragment
+ com.application.app.ui.gallery.GalleryFragment$1
 com/application/app/DataBindingTriggerClass.java
  com.application.app.DataBindingTriggerClass
 com/application/app/databinding/RowEditarPerfil1Binding.java
@@ -52,14 +59,25 @@ com/application/app/DataBinderMapperImpl.java
  com.application.app.DataBinderMapperImpl$InnerLayoutIdLookup
 com/application/app/databinding/ActivityApuntesSubidosBinding.java
  com.application.app.databinding.ActivityApuntesSubidosBinding
+com/application/app/databinding/FragmentGalleryBinding.java
+ com.application.app.databinding.FragmentGalleryBinding
 com/application/app/databinding/ActivitySignUpBinding.java
  com.application.app.databinding.ActivitySignUpBinding
 com/application/app/databinding/ActivityEditarPerfilBinding.java
  com.application.app.databinding.ActivityEditarPerfilBinding
+com/application/app/databinding/NavHeaderMainBinding.java
+ com.application.app.databinding.NavHeaderMainBinding
+com/application/app/databinding/ContentMainBinding.java
+ com.application.app.databinding.ContentMainBinding
 com/application/app/databinding/ActivityFotoSubidaBindingImpl.java
  com.application.app.databinding.ActivityFotoSubidaBindingImpl
+com/application/app/ui/slideshow/SlideshowFragment.java
+ com.application.app.ui.slideshow.SlideshowFragment
+ com.application.app.ui.slideshow.SlideshowFragment$1
 com/application/app/databinding/ActivityEventoAAdidoBinding.java
  com.application.app.databinding.ActivityEventoAAdidoBinding
+com/application/app/ui/slideshow/SlideshowViewModel.java
+ com.application.app.ui.slideshow.SlideshowViewModel
 com/application/app/databinding/ActivitySubirFotoBindingImpl.java
  com.application.app.databinding.ActivitySubirFotoBindingImpl
 com/application/app/databinding/ActivityVerApuntesBindingImpl.java
@@ -72,10 +90,15 @@ com/application/app/databinding/ActivityAAdirAsignaturaBinding.java
  com.application.app.databinding.ActivityAAdirAsignaturaBinding
 com/application/app/databinding/ActivityEventosBindingImpl.java
  com.application.app.databinding.ActivityEventosBindingImpl
+com/application/app/databinding/ActivityDesplegableBinding.java
+ com.application.app.databinding.ActivityDesplegableBinding
 com/application/app/databinding/ActivityFotoSubida1Binding.java
  com.application.app.databinding.ActivityFotoSubida1Binding
 com/application/app/databinding/ActivityEventosBinding.java
  com.application.app.databinding.ActivityEventosBinding
+com/application/app/ui/home/HomeFragment.java
+ com.application.app.ui.home.HomeFragment
+ com.application.app.ui.home.HomeFragment$1
 com/application/app/databinding/ActivityLoginBindingImpl.java
  com.application.app.databinding.ActivityLoginBindingImpl
 com/application/app/databinding/ActivityOcioBinding.java
@@ -84,16 +107,23 @@ com/application/app/databinding/ActivityCalendarioBindingImpl.java
  com.application.app.databinding.ActivityCalendarioBindingImpl
 com/application/app/databinding/ActivityApuntesSubidosBindingImpl.java
  com.application.app.databinding.ActivityApuntesSubidosBindingImpl
+com/application/app/ui/home/HomeViewModel.java
+ com.application.app.ui.home.HomeViewModel
 com/application/app/databinding/ActivityEliminarBindingImpl.java
  com.application.app.databinding.ActivityEliminarBindingImpl
 com/application/app/databinding/ActivityLoginBinding.java
  com.application.app.databinding.ActivityLoginBinding
+com/application/app/databinding/FragmentSlideshowBinding.java
+ com.application.app.databinding.FragmentSlideshowBinding
 com/application/app/databinding/ActivitySubirFotoBinding.java
  com.application.app.databinding.ActivitySubirFotoBinding
 com/application/app/databinding/ActivityAmpliarBindingImpl.java
  com.application.app.databinding.ActivityAmpliarBindingImpl
 com/application/app/databinding/ActivityApuntes2Binding.java
  com.application.app.databinding.ActivityApuntes2Binding
+com/application/app/DesplegableActivity.java
+ com.application.app.DesplegableActivity
+ com.application.app.DesplegableActivity$1
 com/application/app/databinding/LayoutProgressDialogBinding.java
  com.application.app.databinding.LayoutProgressDialogBinding
 com/application/app/databinding/ActivityPerfilBinding.java
@@ -106,6 +136,8 @@ com/application/app/databinding/ActivityAmpliarBinding.java
  com.application.app.databinding.ActivityAmpliarBinding
 com/application/app/databinding/ActivityConfirmarLogoutBindingImpl.java
  com.application.app.databinding.ActivityConfirmarLogoutBindingImpl
+com/application/app/ui/gallery/GalleryViewModel.java
+ com.application.app.ui.gallery.GalleryViewModel
 com/application/app/databinding/ActivityVerApuntesBinding.java
  com.application.app.databinding.ActivityVerApuntesBinding
 com/application/app/databinding/ActivityMenuDesplegableBindingImpl.java

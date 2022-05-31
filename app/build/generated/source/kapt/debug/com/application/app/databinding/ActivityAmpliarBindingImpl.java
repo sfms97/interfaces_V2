@@ -17,6 +17,9 @@ public class ActivityAmpliarBindingImpl extends ActivityAmpliarBinding  {
         sViewsWithIds.put(R.id.scrollViewScrollview, 2);
         sViewsWithIds.put(R.id.constraintAmpliar, 3);
         sViewsWithIds.put(R.id.imageGroup97, 4);
+        sViewsWithIds.put(R.id.imageView11, 5);
+        sViewsWithIds.put(R.id.imageView12, 6);
+        sViewsWithIds.put(R.id.imageView13, 7);
     }
     // views
     // variables
@@ -25,7 +28,7 @@ public class ActivityAmpliarBindingImpl extends ActivityAmpliarBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityAmpliarBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
     }
     private ActivityAmpliarBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -33,6 +36,9 @@ public class ActivityAmpliarBindingImpl extends ActivityAmpliarBinding  {
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             , (android.widget.ImageView) bindings[4]
             , (android.widget.ImageView) bindings[1]
+            , (android.widget.ImageView) bindings[5]
+            , (android.widget.ImageView) bindings[6]
+            , (android.widget.ImageView) bindings[7]
             , (android.widget.ScrollView) bindings[2]
             );
         this.constraintGroup404.setTag(null);

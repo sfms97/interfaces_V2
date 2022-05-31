@@ -36,10 +36,10 @@ public class PerfilActivity : BaseActivity<ActivityPerfilBinding>(R.layout.activ
       val destIntent = CalendarioActivity.getIntent(this, null)
       startActivity(destIntent)
     }
-    binding.imageGroup1.setOnClickListener {
+    /*binding.imageGroup1.setOnClickListener {
       val destIntent = OcioActivity.getIntent(this, null)
       startActivity(destIntent)
-    }
+    }*/
   }
 
   public companion object {

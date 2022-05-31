@@ -44,6 +44,15 @@ public abstract class ActivitySubirFotoBinding extends ViewDataBinding {
   public final ImageView imagePngkey4;
 
   @NonNull
+  public final ImageView imageView23;
+
+  @NonNull
+  public final ImageView imageView24;
+
+  @NonNull
+  public final ImageView imageView25;
+
+  @NonNull
   public final ScrollView scrollViewScrollview;
 
   @NonNull
@@ -62,6 +71,7 @@ public abstract class ActivitySubirFotoBinding extends ViewDataBinding {
       ConstraintLayout constraintGroup240, ConstraintLayout constraintGroup245,
       ConstraintLayout constraintGroup247, ConstraintLayout constraintRectangle21,
       ImageView imageGroup, ImageView imageGroup43, ImageView imageMenu, ImageView imagePngkey4,
+      ImageView imageView23, ImageView imageView24, ImageView imageView25,
       ScrollView scrollViewScrollview, TextView txtSeleccionaLaF, TextView txtSubir,
       TextView txtSubirFoto) {
     super(_bindingComponent, _root, _localFieldCount);
@@ -73,6 +83,9 @@ public abstract class ActivitySubirFotoBinding extends ViewDataBinding {
     this.imageGroup43 = imageGroup43;
     this.imageMenu = imageMenu;
     this.imagePngkey4 = imagePngkey4;
+    this.imageView23 = imageView23;
+    this.imageView24 = imageView24;
+    this.imageView25 = imageView25;
     this.scrollViewScrollview = scrollViewScrollview;
     this.txtSeleccionaLaF = txtSeleccionaLaF;
     this.txtSubir = txtSubir;

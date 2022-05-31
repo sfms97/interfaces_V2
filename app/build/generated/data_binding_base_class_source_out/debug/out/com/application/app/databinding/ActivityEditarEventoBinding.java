@@ -44,6 +44,15 @@ public abstract class ActivityEditarEventoBinding extends ViewDataBinding {
   public final ImageView imagePngkey3;
 
   @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
+  public final ImageView imageView5;
+
+  @NonNull
+  public final ImageView imageView7;
+
+  @NonNull
   public final ScrollView scrollViewScrollview;
 
   @NonNull
@@ -86,10 +95,11 @@ public abstract class ActivityEditarEventoBinding extends ViewDataBinding {
       ConstraintLayout constraintGroup262, ConstraintLayout constraintGroup263,
       ConstraintLayout constraintGroup264, ConstraintLayout constraintGroup271,
       ConstraintLayout constraintGroup274, ImageView imageGroup59, ImageView imageMenu,
-      ImageView imagePngkey3, ScrollView scrollViewScrollview, TextView txtAsignatura,
-      TextView txtAsignatura1, TextView txtComentarios, TextView txtComentarios1,
-      TextView txtEliminar, TextView txtModificar, TextView txtTtulo, TextView txtTtuloDelEven,
-      TextView txtTtuloDelEven1, View viewRectangle18, View viewRectangle3) {
+      ImageView imagePngkey3, ImageView imageView4, ImageView imageView5, ImageView imageView7,
+      ScrollView scrollViewScrollview, TextView txtAsignatura, TextView txtAsignatura1,
+      TextView txtComentarios, TextView txtComentarios1, TextView txtEliminar,
+      TextView txtModificar, TextView txtTtulo, TextView txtTtuloDelEven, TextView txtTtuloDelEven1,
+      View viewRectangle18, View viewRectangle3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup262 = constraintGroup262;
     this.constraintGroup263 = constraintGroup263;
@@ -99,6 +109,9 @@ public abstract class ActivityEditarEventoBinding extends ViewDataBinding {
     this.imageGroup59 = imageGroup59;
     this.imageMenu = imageMenu;
     this.imagePngkey3 = imagePngkey3;
+    this.imageView4 = imageView4;
+    this.imageView5 = imageView5;
+    this.imageView7 = imageView7;
     this.scrollViewScrollview = scrollViewScrollview;
     this.txtAsignatura = txtAsignatura;
     this.txtAsignatura1 = txtAsignatura1;

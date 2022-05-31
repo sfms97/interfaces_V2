@@ -14,13 +14,13 @@ public class ActivityOcioBindingImpl extends ActivityOcioBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.constraintGroup280, 6);
-        sViewsWithIds.put(R.id.constraintGroup279, 7);
-        sViewsWithIds.put(R.id.imageGroup, 8);
-        sViewsWithIds.put(R.id.imageGroup1, 9);
-        sViewsWithIds.put(R.id.imageGroup2, 10);
-        sViewsWithIds.put(R.id.imageRectangle2, 11);
-        sViewsWithIds.put(R.id.imageGroup3, 12);
+        sViewsWithIds.put(R.id.constraintGroup280, 5);
+        sViewsWithIds.put(R.id.constraintGroup279, 6);
+        sViewsWithIds.put(R.id.imageGroup, 7);
+        sViewsWithIds.put(R.id.imageGroup1, 8);
+        sViewsWithIds.put(R.id.imageGroup2, 9);
+        sViewsWithIds.put(R.id.imageRectangle2, 10);
+        sViewsWithIds.put(R.id.imageGroup3, 11);
     }
     // views
     // variables
@@ -29,28 +29,26 @@ public class ActivityOcioBindingImpl extends ActivityOcioBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityOcioBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 12, sIncludes, sViewsWithIds));
     }
     private ActivityOcioBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[7]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[6]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[5]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
+            , (android.widget.ImageView) bindings[7]
             , (android.widget.ImageView) bindings[8]
             , (android.widget.ImageView) bindings[9]
-            , (android.widget.ImageView) bindings[10]
-            , (android.widget.ImageView) bindings[12]
+            , (android.widget.ImageView) bindings[11]
             , (android.widget.ImageView) bindings[2]
             , (android.widget.ImageView) bindings[1]
-            , (android.widget.ImageView) bindings[4]
-            , (android.widget.ImageView) bindings[11]
-            , (android.widget.TextView) bindings[5]
+            , (android.widget.ImageView) bindings[10]
+            , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[3]
             );
         this.constraintOcio.setTag(null);
         this.imageMenu.setTag(null);
         this.imagePngkey1.setTag(null);
-        this.imageRectangle.setTag(null);
         this.txtBuscar.setTag(null);
         this.txtOcioCercano.setTag(null);
         setRootTag(root);
@@ -124,8 +122,8 @@ public class ActivityOcioBindingImpl extends ActivityOcioBinding  {
         }
         androidx.lifecycle.MutableLiveData<com.application.app.modules.ocio.data.model.OcioModel> ocioVMOcioModel = null;
         java.lang.String ocioVMOcioModelTxtBuscar = null;
-        com.application.app.modules.ocio.data.viewmodel.OcioVM ocioVM = mOcioVM;
         java.lang.String ocioVMOcioModelTxtOcioCercano = null;
+        com.application.app.modules.ocio.data.viewmodel.OcioVM ocioVM = mOcioVM;
         com.application.app.modules.ocio.data.model.OcioModel ocioVMOcioModelGetValue = null;
 
         if ((dirtyFlags & 0x7L) != 0) {
@@ -158,7 +156,6 @@ public class ActivityOcioBindingImpl extends ActivityOcioBinding  {
 
             com.application.app.appcomponents.ui.CustomBindingAdapterKt.loadImageFromResource(this.imageMenu, androidx.appcompat.content.res.AppCompatResources.getDrawable(imageMenu.getContext(), R.drawable.img_menu), (float)0f, (boolean)false);
             com.application.app.appcomponents.ui.CustomBindingAdapterKt.loadImageFromResource(this.imagePngkey1, androidx.appcompat.content.res.AppCompatResources.getDrawable(imagePngkey1.getContext(), R.drawable.img_pngkey2), (float)0f, (boolean)false);
-            com.application.app.appcomponents.ui.CustomBindingAdapterKt.loadImageFromResource(this.imageRectangle, androidx.appcompat.content.res.AppCompatResources.getDrawable(imageRectangle.getContext(), R.drawable.img_rectangle), imageRectangle.getResources().getDimension(R.dimen._20pxh), (boolean)false);
         }
         if ((dirtyFlags & 0x7L) != 0) {
             // api target 1

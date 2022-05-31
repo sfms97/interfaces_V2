@@ -15,15 +15,13 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.application.app.R;
 import com.application.app.modules.eventos.data.viewmodel.EventosVM;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class ActivityEventosBinding extends ViewDataBinding {
   @NonNull
   public final ConstraintLayout constraintGroup188;
-
-  @NonNull
-  public final ConstraintLayout constraintGroup189;
 
   @NonNull
   public final ConstraintLayout constraintGroup197;
@@ -35,13 +33,34 @@ public abstract class ActivityEventosBinding extends ViewDataBinding {
   public final ImageView imageCalendarDate;
 
   @NonNull
+  public final ImageView imageGroup27;
+
+  @NonNull
   public final ImageView imageMenu;
 
   @NonNull
   public final ImageView imagePngkey2;
 
   @NonNull
+  public final ImageView imageView10;
+
+  @NonNull
+  public final ImageView imageView17;
+
+  @NonNull
+  public final ImageView imageView18;
+
+  @NonNull
   public final ScrollView scrollViewScrollview;
+
+  @NonNull
+  public final TextInputEditText textInputEditText;
+
+  @NonNull
+  public final TextInputEditText textInputEditText2;
+
+  @NonNull
+  public final TextInputEditText tituloEventos;
 
   @NonNull
   public final TextView txt;
@@ -65,36 +84,34 @@ public abstract class ActivityEventosBinding extends ViewDataBinding {
   public final TextView txtTtulo;
 
   @NonNull
-  public final View viewRectangle10;
-
-  @NonNull
-  public final View viewRectangle17;
-
-  @NonNull
-  public final View viewRectangle2;
-
-  @NonNull
   public final View viewRectangle3;
 
   @Bindable
   protected EventosVM mEventosVM;
 
   protected ActivityEventosBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout constraintGroup188, ConstraintLayout constraintGroup189,
-      ConstraintLayout constraintGroup197, ConstraintLayout constraintGroup200,
-      ImageView imageCalendarDate, ImageView imageMenu, ImageView imagePngkey2,
-      ScrollView scrollViewScrollview, TextView txt, TextView txtAadir, TextView txtAsignatura,
-      TextView txtComentarios, TextView txtEventos, TextView txtFecha, TextView txtTtulo,
-      View viewRectangle10, View viewRectangle17, View viewRectangle2, View viewRectangle3) {
+      ConstraintLayout constraintGroup188, ConstraintLayout constraintGroup197,
+      ConstraintLayout constraintGroup200, ImageView imageCalendarDate, ImageView imageGroup27,
+      ImageView imageMenu, ImageView imagePngkey2, ImageView imageView10, ImageView imageView17,
+      ImageView imageView18, ScrollView scrollViewScrollview, TextInputEditText textInputEditText,
+      TextInputEditText textInputEditText2, TextInputEditText tituloEventos, TextView txt,
+      TextView txtAadir, TextView txtAsignatura, TextView txtComentarios, TextView txtEventos,
+      TextView txtFecha, TextView txtTtulo, View viewRectangle3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup188 = constraintGroup188;
-    this.constraintGroup189 = constraintGroup189;
     this.constraintGroup197 = constraintGroup197;
     this.constraintGroup200 = constraintGroup200;
     this.imageCalendarDate = imageCalendarDate;
+    this.imageGroup27 = imageGroup27;
     this.imageMenu = imageMenu;
     this.imagePngkey2 = imagePngkey2;
+    this.imageView10 = imageView10;
+    this.imageView17 = imageView17;
+    this.imageView18 = imageView18;
     this.scrollViewScrollview = scrollViewScrollview;
+    this.textInputEditText = textInputEditText;
+    this.textInputEditText2 = textInputEditText2;
+    this.tituloEventos = tituloEventos;
     this.txt = txt;
     this.txtAadir = txtAadir;
     this.txtAsignatura = txtAsignatura;
@@ -102,9 +119,6 @@ public abstract class ActivityEventosBinding extends ViewDataBinding {
     this.txtEventos = txtEventos;
     this.txtFecha = txtFecha;
     this.txtTtulo = txtTtulo;
-    this.viewRectangle10 = viewRectangle10;
-    this.viewRectangle17 = viewRectangle17;
-    this.viewRectangle2 = viewRectangle2;
     this.viewRectangle3 = viewRectangle3;
   }
 

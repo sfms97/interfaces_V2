@@ -56,6 +56,15 @@ public abstract class ActivityApuntes2Binding extends ViewDataBinding {
   public final ImageView imageRectangle17;
 
   @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
+  public final ImageView imageView8;
+
+  @NonNull
+  public final ImageView imageView9;
+
+  @NonNull
   public final ScrollView scrollViewScrollview;
 
   @NonNull
@@ -80,13 +89,7 @@ public abstract class ActivityApuntes2Binding extends ViewDataBinding {
   public final TextView txtApuntes6fech;
 
   @NonNull
-  public final TextView txtApuntes7fech;
-
-  @NonNull
-  public final TextView txtApuntes8fech;
-
-  @NonNull
-  public final TextView txtDescargar;
+  public final TextView txtDescarga;
 
   @NonNull
   public final TextView txtElige;
@@ -98,13 +101,10 @@ public abstract class ActivityApuntes2Binding extends ViewDataBinding {
   public final TextView txtSeleccionaUna;
 
   @NonNull
-  public final TextView txtVer;
-
-  @NonNull
   public final TextView txtVer1;
 
   @NonNull
-  public final View viewRectangle19;
+  public final View viewRectangle;
 
   @NonNull
   public final View viewRectangle3;
@@ -117,12 +117,12 @@ public abstract class ActivityApuntes2Binding extends ViewDataBinding {
       ConstraintLayout constraintGroup213, ConstraintLayout constraintGroup214,
       ConstraintLayout constraintGroup225, ImageView imageCalendarDate, ImageView imageGroup,
       ImageView imageGroup32, ImageView imageInterfaceRemov, ImageView imageMenu,
-      ImageView imagePngkey3, ImageView imageRectangle17, ScrollView scrollViewScrollview,
-      TextView txt, TextView txtApuntes1fech, TextView txtApuntes2fech, TextView txtApuntes3fech,
+      ImageView imagePngkey3, ImageView imageRectangle17, ImageView imageView6,
+      ImageView imageView8, ImageView imageView9, ScrollView scrollViewScrollview, TextView txt,
+      TextView txtApuntes1fech, TextView txtApuntes2fech, TextView txtApuntes3fech,
       TextView txtApuntes4fech, TextView txtApuntes5fech, TextView txtApuntes6fech,
-      TextView txtApuntes7fech, TextView txtApuntes8fech, TextView txtDescargar, TextView txtElige,
-      TextView txtFsica, TextView txtSeleccionaUna, TextView txtVer, TextView txtVer1,
-      View viewRectangle19, View viewRectangle3) {
+      TextView txtDescarga, TextView txtElige, TextView txtFsica, TextView txtSeleccionaUna,
+      TextView txtVer1, View viewRectangle, View viewRectangle3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup202 = constraintGroup202;
     this.constraintGroup209 = constraintGroup209;
@@ -136,6 +136,9 @@ public abstract class ActivityApuntes2Binding extends ViewDataBinding {
     this.imageMenu = imageMenu;
     this.imagePngkey3 = imagePngkey3;
     this.imageRectangle17 = imageRectangle17;
+    this.imageView6 = imageView6;
+    this.imageView8 = imageView8;
+    this.imageView9 = imageView9;
     this.scrollViewScrollview = scrollViewScrollview;
     this.txt = txt;
     this.txtApuntes1fech = txtApuntes1fech;
@@ -144,15 +147,12 @@ public abstract class ActivityApuntes2Binding extends ViewDataBinding {
     this.txtApuntes4fech = txtApuntes4fech;
     this.txtApuntes5fech = txtApuntes5fech;
     this.txtApuntes6fech = txtApuntes6fech;
-    this.txtApuntes7fech = txtApuntes7fech;
-    this.txtApuntes8fech = txtApuntes8fech;
-    this.txtDescargar = txtDescargar;
+    this.txtDescarga = txtDescarga;
     this.txtElige = txtElige;
     this.txtFsica = txtFsica;
     this.txtSeleccionaUna = txtSeleccionaUna;
-    this.txtVer = txtVer;
     this.txtVer1 = txtVer1;
-    this.viewRectangle19 = viewRectangle19;
+    this.viewRectangle = viewRectangle;
     this.viewRectangle3 = viewRectangle3;
   }
 

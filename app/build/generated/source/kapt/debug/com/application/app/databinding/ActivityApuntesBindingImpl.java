@@ -20,9 +20,11 @@ public class ActivityApuntesBindingImpl extends ActivityApuntesBinding  {
         sViewsWithIds.put(R.id.constraintGroup251, 13);
         sViewsWithIds.put(R.id.viewRectangle19, 14);
         sViewsWithIds.put(R.id.viewRectangle20, 15);
-        sViewsWithIds.put(R.id.constraintGroup250, 16);
-        sViewsWithIds.put(R.id.constraintGroup256, 17);
-        sViewsWithIds.put(R.id.constraintGroup249, 18);
+        sViewsWithIds.put(R.id.constraintGroup256, 16);
+        sViewsWithIds.put(R.id.constraintGroup249, 17);
+        sViewsWithIds.put(R.id.imageView, 18);
+        sViewsWithIds.put(R.id.imageView2, 19);
+        sViewsWithIds.put(R.id.imageView3, 20);
     }
     // views
     // variables
@@ -31,23 +33,25 @@ public class ActivityApuntesBindingImpl extends ActivityApuntesBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityApuntesBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 19, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 21, sIncludes, sViewsWithIds));
     }
     private ActivityApuntesBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[18]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[16]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[13]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[17]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[13]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[16]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[11]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             , (android.widget.ImageView) bindings[12]
             , (android.widget.ImageView) bindings[9]
             , (android.widget.ImageView) bindings[8]
+            , (android.widget.ImageView) bindings[18]
+            , (android.widget.ImageView) bindings[19]
+            , (android.widget.ImageView) bindings[20]
             , (android.widget.ScrollView) bindings[10]
-            , (android.widget.TextView) bindings[2]
-            , (android.widget.TextView) bindings[1]
             , (android.widget.TextView) bindings[3]
+            , (android.widget.TextView) bindings[1]
+            , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[7]

@@ -22,6 +22,9 @@ public class ActivityEditarEventoBindingImpl extends ActivityEditarEventoBinding
         sViewsWithIds.put(R.id.viewRectangle18, 17);
         sViewsWithIds.put(R.id.constraintGroup263, 18);
         sViewsWithIds.put(R.id.constraintGroup262, 19);
+        sViewsWithIds.put(R.id.imageView4, 20);
+        sViewsWithIds.put(R.id.imageView5, 21);
+        sViewsWithIds.put(R.id.imageView7, 22);
     }
     // views
     // variables
@@ -30,7 +33,7 @@ public class ActivityEditarEventoBindingImpl extends ActivityEditarEventoBinding
     // Inverse Binding Event Handlers
 
     public ActivityEditarEventoBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 23, sIncludes, sViewsWithIds));
     }
     private ActivityEditarEventoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
@@ -42,12 +45,15 @@ public class ActivityEditarEventoBindingImpl extends ActivityEditarEventoBinding
             , (android.widget.ImageView) bindings[14]
             , (android.widget.ImageView) bindings[11]
             , (android.widget.ImageView) bindings[10]
+            , (android.widget.ImageView) bindings[20]
+            , (android.widget.ImageView) bindings[21]
+            , (android.widget.ImageView) bindings[22]
             , (android.widget.ScrollView) bindings[12]
-            , (android.widget.TextView) bindings[2]
+            , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[8]
             , (android.widget.TextView) bindings[1]
             , (android.widget.TextView) bindings[9]
-            , (android.widget.TextView) bindings[4]
+            , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[5]

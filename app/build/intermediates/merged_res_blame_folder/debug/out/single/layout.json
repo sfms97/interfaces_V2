@@ -24,8 +24,20 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_eventos.xml",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_eventos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_a_adir_asignatura.xml",
@@ -34,6 +46,10 @@
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_foto_subida.xml",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_foto_subida.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_progress_dialog.xml",
@@ -60,6 +76,10 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_apuntes.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_desplegable.xml",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_desplegable.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_calendario.xml",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_calendario.xml"
     },
@@ -68,8 +88,16 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_evento_modificado.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ampliar.xml",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_ampliar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu_desplegable.xml",

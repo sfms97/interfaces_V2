@@ -30,10 +30,10 @@ public class Apuntes2Activity : BaseActivity<ActivityApuntes2Binding>(R.layout.a
       val destIntent = VerApuntesActivity.getIntent(this, null)
       startActivity(destIntent)
     }
-    binding.viewRectangle19.setOnClickListener {
+    /*binding.viewRectangle19.setOnClickListener {
       val destIntent = FotoSubida1Activity.getIntent(this, null)
       startActivity(destIntent)
-    }
+    }*/
   }
 
   public companion object {

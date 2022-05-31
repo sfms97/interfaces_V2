@@ -18,7 +18,6 @@ public class ActivityFotoSubida1BindingImpl extends ActivityFotoSubida1Binding  
         sViewsWithIds.put(R.id.imagePngkey5, 3);
         sViewsWithIds.put(R.id.imageInterfaceFavor, 4);
         sViewsWithIds.put(R.id.imagePngkey6, 5);
-        sViewsWithIds.put(R.id.imageInterfaceFavor1, 6);
     }
     // views
     // variables
@@ -27,14 +26,13 @@ public class ActivityFotoSubida1BindingImpl extends ActivityFotoSubida1Binding  
     // Inverse Binding Event Handlers
 
     public ActivityFotoSubida1BindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
     }
     private ActivityFotoSubida1BindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[2]
             , (android.widget.ImageView) bindings[4]
-            , (android.widget.ImageView) bindings[6]
             , (android.widget.ImageView) bindings[3]
             , (android.widget.ImageView) bindings[5]
             , (android.widget.TextView) bindings[1]

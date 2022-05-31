@@ -4,35 +4,31 @@
     <data>
         <variable name="loginVM" type="com.application.app.modules.login.data.viewmodel.LoginVM"/>
     </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintGroup277"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent" style="@style/groupStylelime_100">
+        style="@style/groupStylelime_100"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <View
             android:id="@+id/viewRectangle3"
             android:layout_width="@dimen/_114pxh"
             android:layout_height="@dimen/_50pxv"
-            android:layout_marginStart="@dimen/_17pxh"
-            android:layout_marginTop="500dp"
-            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginBottom="56dp"
             android:background="@drawable/rectangle_bg_amber_700_radius_20"
             android:clickable="true"
-            app:layout_constraintEnd_toEndOf="@+id/txtLogin"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/txtLogin"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/txtRegistrate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/txtRegistrate"
             style="@style/txtSansitaSwashedromanregular16_1"
-            android:layout_width="0dp"
+            android:layout_width="189dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_79pxh"
-            android:layout_marginTop="@dimen/_39pxv"
-            android:layout_marginEnd="@dimen/_94pxh"
-            android:layout_marginBottom="@dimen/_88pxv"
+            android:layout_marginBottom="88dp"
             android:clickable="true"
             android:ellipsize="end"
             android:gravity="center"
@@ -40,48 +36,37 @@
             android:text="@{loginVM.loginModel.txtRegstrate}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/viewRectangle3"
-            app:layout_constraintVertical_bias="0.0"
             tools:text="@string/lbl_reg_strate" />
 
         <TextView
             android:id="@+id/txtLogin"
             style="@style/txtSansitaSwashedromanregular24"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_82pxh"
-            android:layout_marginTop="@dimen/_6pxv"
-            android:layout_marginEnd="@dimen/_91pxh"
-            android:layout_marginBottom="@dimen/_26pxv"
+            android:layout_width="135dp"
+            android:layout_height="48dp"
             android:ellipsize="end"
             android:gravity="center"
             android:singleLine="true"
             android:text="@{loginVM.loginModel.txtLogin}"
             app:layout_constraintBottom_toBottomOf="@+id/viewRectangle3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/viewRectangle3"
+            app:layout_constraintStart_toStartOf="@+id/viewRectangle3"
             app:layout_constraintTop_toTopOf="@+id/viewRectangle3"
-            app:layout_constraintVertical_bias="0.0"
             tools:text="@string/lbl_login" />
 
         <TextView
             android:id="@+id/txtStudyEnjoy"
             style="@style/txtSansitaSwashedromanregular36"
-            android:layout_width="0dp"
+            android:layout_width="319dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_32pxh"
-            android:layout_marginTop="@dimen/_13pxv"
-            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginBottom="24dp"
             android:ellipsize="end"
             android:gravity="center"
             android:singleLine="true"
             android:text="@{loginVM.loginModel.txtStudyEnjoy}"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imagePngkey1"
             tools:text="@string/lbl_study_enjoy" />
 
         <ImageView
@@ -89,47 +74,42 @@
             imageRes="@{@drawable/img_pngkey1}"
             android:layout_width="@dimen/_157pxh"
             android:layout_height="@dimen/_153pxh"
-            android:layout_marginStart="@dimen/_77pxh"
-            android:layout_marginTop="@dimen/_5pxv"
-            android:layout_marginEnd="@dimen/_86pxh"
+            android:layout_marginBottom="40dp"
             android:scaleType="fitXY"
             app:layout_constraintBottom_toTopOf="@+id/txtStudyEnjoy"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.888"
             tools:src="@drawable/img_pngkey1" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="320dp"
-            android:layout_marginEnd="100dp"
+            android:layout_width="208dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="28dp"
             android:ems="10"
             android:hint="Username"
             android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="400dp"
-            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="28dp"
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
+            app:layout_constraintBottom_toTopOf="@+id/viewRectangle3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

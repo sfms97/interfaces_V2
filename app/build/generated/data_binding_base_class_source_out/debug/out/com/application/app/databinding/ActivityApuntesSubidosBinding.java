@@ -28,9 +28,6 @@ public abstract class ActivityApuntesSubidosBinding extends ViewDataBinding {
   public final ImageView imageInterfaceFavor;
 
   @NonNull
-  public final ImageView imageInterfaceFavor1;
-
-  @NonNull
   public final ImageView imagePngkey5;
 
   @NonNull
@@ -44,14 +41,12 @@ public abstract class ActivityApuntesSubidosBinding extends ViewDataBinding {
 
   protected ActivityApuntesSubidosBinding(Object _bindingComponent, View _root,
       int _localFieldCount, ConstraintLayout constraintApuntessubidos,
-      ConstraintLayout constraintGroup391, ImageView imageInterfaceFavor,
-      ImageView imageInterfaceFavor1, ImageView imagePngkey5, ImageView imagePngkey6,
-      TextView txtApuntesSubidos) {
+      ConstraintLayout constraintGroup391, ImageView imageInterfaceFavor, ImageView imagePngkey5,
+      ImageView imagePngkey6, TextView txtApuntesSubidos) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintApuntessubidos = constraintApuntessubidos;
     this.constraintGroup391 = constraintGroup391;
     this.imageInterfaceFavor = imageInterfaceFavor;
-    this.imageInterfaceFavor1 = imageInterfaceFavor1;
     this.imagePngkey5 = imagePngkey5;
     this.imagePngkey6 = imagePngkey6;
     this.txtApuntesSubidos = txtApuntesSubidos;

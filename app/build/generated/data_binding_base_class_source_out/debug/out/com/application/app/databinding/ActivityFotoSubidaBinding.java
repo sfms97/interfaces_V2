@@ -28,9 +28,6 @@ public abstract class ActivityFotoSubidaBinding extends ViewDataBinding {
   public final ImageView imageInterfaceFavor;
 
   @NonNull
-  public final ImageView imageInterfaceFavor1;
-
-  @NonNull
   public final ImageView imagePngkey5;
 
   @NonNull
@@ -44,13 +41,12 @@ public abstract class ActivityFotoSubidaBinding extends ViewDataBinding {
 
   protected ActivityFotoSubidaBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout constraintFotosubida, ConstraintLayout constraintGroup371,
-      ImageView imageInterfaceFavor, ImageView imageInterfaceFavor1, ImageView imagePngkey5,
-      ImageView imagePngkey6, TextView txtFotoSubida) {
+      ImageView imageInterfaceFavor, ImageView imagePngkey5, ImageView imagePngkey6,
+      TextView txtFotoSubida) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintFotosubida = constraintFotosubida;
     this.constraintGroup371 = constraintGroup371;
     this.imageInterfaceFavor = imageInterfaceFavor;
-    this.imageInterfaceFavor1 = imageInterfaceFavor1;
     this.imagePngkey5 = imagePngkey5;
     this.imagePngkey6 = imagePngkey6;
     this.txtFotoSubida = txtFotoSubida;

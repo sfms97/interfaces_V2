@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_orange_500_ce.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_lime_100.xml.flat",
-        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_lime_100.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_lime_100.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_lime_100.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group.xml.flat",
@@ -44,6 +44,10 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\image_not_found.png"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_evento_modificado.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_evento_modificado.xml"
     },
@@ -52,12 +56,12 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_orange_500_e5.xml.flat",
-        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_orange_500_e5.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_orange_500_e5.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_orange_500_e5.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -76,16 +80,24 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_confirmar_logout.xml"
     },
     {
-        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_eliminar.xml.flat",
-        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_eliminar.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_10.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_10.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_eliminar.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_eliminar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_arrow_1.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_arrow_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -104,6 +116,10 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_menu_desplegable.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_5.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_5.xml"
     },
@@ -120,12 +136,12 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_menu.png"
     },
     {
-        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_white_a700.xml.flat",
-        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_white_a700.xml"
-    },
-    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_white_a700.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_white_a700.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\font_interregular700.ttf.flat",
@@ -134,6 +150,10 @@
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\font_sansitaswashedsansitaswashedromanregular400.ttf.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\font\\sansitaswashedsansitaswashedromanregular400.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -216,6 +236,10 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_ampliar.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_calendario.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_calendario.xml"
     },
@@ -296,8 +320,16 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\row_editar_perfil1.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_evento_eliminadp.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_evento_eliminadp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pngkey2.png.flat",
@@ -340,6 +372,14 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_gray_600_radius_10.xml"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\menu_desplegable.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\menu\\desplegable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pngkey1.png.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_pngkey1.png"
     },
@@ -356,8 +396,16 @@
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_calendardate.png"
     },
     {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_apuntes_subidos.xml.flat",
@@ -386,6 +434,10 @@
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle_bg_black_900_3f_radius_20.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\rectangle_bg_black_900_3f_radius_20.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_desplegable_drawer.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\menu\\activity_desplegable_drawer.xml"
     },
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_interfaceremov.xml.flat",
@@ -430,5 +482,9 @@
     {
         "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_group_15.xml.flat",
         "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\drawable\\img_group_15.xml"
+    },
+    {
+        "merged": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_desplegable.xml.flat",
+        "source": "C:\\Users\\Test\\Documents\\GitHub\\interfaces_V2\\app\\src\\main\\res\\layout\\activity_desplegable.xml"
     }
 ]

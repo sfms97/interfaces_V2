@@ -3,14 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_a_adir_asignatura.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_ampliar.xml" value="0.264" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_app_navigation.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_apuntes.xml" value="0.264" />
-        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_apuntes_2.xml" value="0.4" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_apuntes_2.xml" value="0.264" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_apuntes_subidos.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_calendario.xml" value="0.264" />
-        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_editar_evento.xml" value="0.4" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_confirmar_logout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_desplegable.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_editar_evento.xml" value="0.264" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_editar_perfil.xml" value="0.264" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_eliminar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_evento_a_adido.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_evento_eliminadp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_evento_modificado.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_eventos.xml" value="0.264" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_foto_subida.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_foto_subida1.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_menu_desplegable.xml" value="0.264" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_ocio.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_perfil.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_subir_foto.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Test/Documents/GitHub/interfaces_V2/app/src/main/res/layout/activity_ver_apuntes.xml" value="0.264" />
         <entry key="..\:/Users/alext/OneDrive/Documentos/GitHub/Study&amp;Enjoy/interfaces_V2/app/src/main/res/font/inter.xml" value="0.10729166666666666" />
         <entry key="..\:/Users/alext/OneDrive/Documentos/GitHub/Study&amp;Enjoy/interfaces_V2/app/src/main/res/font/sansita_swashed.xml" value="0.10729166666666666" />
         <entry key="..\:/Users/alext/OneDrive/Documentos/GitHub/Study&amp;Enjoy/interfaces_V2/app/src/main/res/layout/activity_login.xml" value="0.1" />

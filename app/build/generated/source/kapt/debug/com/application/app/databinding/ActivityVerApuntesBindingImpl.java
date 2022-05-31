@@ -17,6 +17,9 @@ public class ActivityVerApuntesBindingImpl extends ActivityVerApuntesBinding  {
         sViewsWithIds.put(R.id.scrollViewScrollview, 7);
         sViewsWithIds.put(R.id.constraintGroup230, 8);
         sViewsWithIds.put(R.id.imageGroup37, 9);
+        sViewsWithIds.put(R.id.imageView26, 10);
+        sViewsWithIds.put(R.id.imageView27, 11);
+        sViewsWithIds.put(R.id.imageView28, 12);
     }
     // views
     // variables
@@ -25,7 +28,7 @@ public class ActivityVerApuntesBindingImpl extends ActivityVerApuntesBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityVerApuntesBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 10, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
     }
     private ActivityVerApuntesBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
@@ -35,6 +38,9 @@ public class ActivityVerApuntesBindingImpl extends ActivityVerApuntesBinding  {
             , (android.widget.ImageView) bindings[5]
             , (android.widget.ImageView) bindings[4]
             , (android.widget.ImageView) bindings[3]
+            , (android.widget.ImageView) bindings[10]
+            , (android.widget.ImageView) bindings[11]
+            , (android.widget.ImageView) bindings[12]
             , (android.widget.ImageView) bindings[6]
             , (android.widget.ScrollView) bindings[7]
             , (android.widget.TextView) bindings[2]
@@ -117,9 +123,9 @@ public class ActivityVerApuntesBindingImpl extends ActivityVerApuntesBinding  {
             mDirtyFlags = 0;
         }
         com.application.app.modules.verapuntes.data.model.VerApuntesModel verApuntesVMVerApuntesModelGetValue = null;
+        com.application.app.modules.verapuntes.data.viewmodel.VerApuntesVM verApuntesVM = mVerApuntesVM;
         androidx.lifecycle.MutableLiveData<com.application.app.modules.verapuntes.data.model.VerApuntesModel> verApuntesVMVerApuntesModel = null;
         java.lang.String verApuntesVMVerApuntesModelTxtFsica = null;
-        com.application.app.modules.verapuntes.data.viewmodel.VerApuntesVM verApuntesVM = mVerApuntesVM;
         java.lang.String verApuntesVMVerApuntesModelTxtApuntes1fech = null;
 
         if ((dirtyFlags & 0x7L) != 0) {

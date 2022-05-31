@@ -16,13 +16,16 @@ public class ActivityEventosBindingImpl extends ActivityEventosBinding  {
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.scrollViewScrollview, 10);
         sViewsWithIds.put(R.id.constraintGroup197, 11);
-        sViewsWithIds.put(R.id.viewRectangle3, 12);
-        sViewsWithIds.put(R.id.viewRectangle2, 13);
-        sViewsWithIds.put(R.id.constraintGroup189, 14);
-        sViewsWithIds.put(R.id.imageCalendarDate, 15);
-        sViewsWithIds.put(R.id.viewRectangle10, 16);
-        sViewsWithIds.put(R.id.viewRectangle17, 17);
-        sViewsWithIds.put(R.id.constraintGroup188, 18);
+        sViewsWithIds.put(R.id.imageGroup27, 12);
+        sViewsWithIds.put(R.id.viewRectangle3, 13);
+        sViewsWithIds.put(R.id.constraintGroup188, 14);
+        sViewsWithIds.put(R.id.textInputEditText, 15);
+        sViewsWithIds.put(R.id.textInputEditText2, 16);
+        sViewsWithIds.put(R.id.tituloEventos, 17);
+        sViewsWithIds.put(R.id.imageCalendarDate, 18);
+        sViewsWithIds.put(R.id.imageView10, 19);
+        sViewsWithIds.put(R.id.imageView17, 20);
+        sViewsWithIds.put(R.id.imageView18, 21);
     }
     // views
     // variables
@@ -31,29 +34,32 @@ public class ActivityEventosBindingImpl extends ActivityEventosBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityEventosBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 19, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 22, sIncludes, sViewsWithIds));
     }
     private ActivityEventosBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[18]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[14]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[11]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (android.widget.ImageView) bindings[15]
-            , (android.widget.ImageView) bindings[9]
-            , (android.widget.ImageView) bindings[8]
+            , (android.widget.ImageView) bindings[18]
+            , (android.widget.ImageView) bindings[12]
+            , (android.widget.ImageView) bindings[7]
+            , (android.widget.ImageView) bindings[6]
+            , (android.widget.ImageView) bindings[19]
+            , (android.widget.ImageView) bindings[20]
+            , (android.widget.ImageView) bindings[21]
             , (android.widget.ScrollView) bindings[10]
+            , (com.google.android.material.textfield.TextInputEditText) bindings[15]
+            , (com.google.android.material.textfield.TextInputEditText) bindings[16]
+            , (com.google.android.material.textfield.TextInputEditText) bindings[17]
+            , (android.widget.TextView) bindings[9]
             , (android.widget.TextView) bindings[1]
-            , (android.widget.TextView) bindings[2]
-            , (android.widget.TextView) bindings[5]
-            , (android.widget.TextView) bindings[7]
-            , (android.widget.TextView) bindings[3]
-            , (android.widget.TextView) bindings[6]
             , (android.widget.TextView) bindings[4]
-            , (android.view.View) bindings[16]
-            , (android.view.View) bindings[17]
+            , (android.widget.TextView) bindings[5]
+            , (android.widget.TextView) bindings[2]
+            , (android.widget.TextView) bindings[8]
+            , (android.widget.TextView) bindings[3]
             , (android.view.View) bindings[13]
-            , (android.view.View) bindings[12]
             );
         this.constraintGroup200.setTag(null);
         this.imageMenu.setTag(null);
@@ -142,8 +148,8 @@ public class ActivityEventosBindingImpl extends ActivityEventosBinding  {
         java.lang.String eventosVMEventosModelTxtTtulo = null;
         java.lang.String eventosVMEventosModelTxtComentarios = null;
         com.application.app.modules.eventos.data.viewmodel.EventosVM eventosVM = mEventosVM;
-        java.lang.String eventosVMEventosModelTxt = null;
         java.lang.String eventosVMEventosModelTxtAsignatura = null;
+        java.lang.String eventosVMEventosModelTxt = null;
 
         if ((dirtyFlags & 0x7L) != 0) {
 
@@ -173,10 +179,10 @@ public class ActivityEventosBindingImpl extends ActivityEventosBinding  {
                     eventosVMEventosModelTxtTtulo = eventosVMEventosModelGetValue.getTxtTtulo();
                     // read eventosVM.eventosModel.getValue().txtComentarios
                     eventosVMEventosModelTxtComentarios = eventosVMEventosModelGetValue.getTxtComentarios();
-                    // read eventosVM.eventosModel.getValue().txt
-                    eventosVMEventosModelTxt = eventosVMEventosModelGetValue.getTxt();
                     // read eventosVM.eventosModel.getValue().txtAsignatura
                     eventosVMEventosModelTxtAsignatura = eventosVMEventosModelGetValue.getTxtAsignatura();
+                    // read eventosVM.eventosModel.getValue().txt
+                    eventosVMEventosModelTxt = eventosVMEventosModelGetValue.getTxt();
                 }
         }
         // batch finished

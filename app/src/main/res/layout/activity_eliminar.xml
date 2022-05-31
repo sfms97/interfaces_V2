@@ -29,15 +29,19 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/txtSeguroQueQui">
-            <TextView android:clickable="true" android:ellipsize="end"
+
+            <TextView
                 android:id="@+id/txtS"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_23pxh"
+                style="@style/txtSolidRounded_6"
+                android:layout_width="88dp"
+                android:layout_height="62dp"
                 android:layout_marginStart="@dimen/_38pxh"
-                android:layout_width="wrap_content"
-                android:paddingBottom="@dimen/_16pxv"
+                android:layout_marginEnd="@dimen/_23pxh"
+                android:clickable="true"
+                android:ellipsize="end"
                 android:paddingStart="@dimen/_30pxh"
                 android:paddingTop="@dimen/_6pxv"
+                android:paddingBottom="@dimen/_16pxv"
                 android:singleLine="true"
                 android:text="@{eliminarVM.eliminarModel.txtS}"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -45,14 +49,18 @@
                 app:layout_constraintHorizontal_bias="0.19"
                 app:layout_constraintStart_toEndOf="@+id/txtNo"
                 app:layout_constraintTop_toTopOf="parent"
-                style="@style/txtSolidRounded_6" tools:text="@string/lbl_s"/>
-            <TextView android:ellipsize="end" android:id="@+id/txtNo"
-                android:layout_height="wrap_content"
+                tools:text="@string/lbl_s" />
+
+            <TextView
+                android:id="@+id/txtNo"
+                style="@style/txtSolidRounded_8"
+                android:layout_width="118dp"
+                android:layout_height="61dp"
                 android:layout_marginStart="@dimen/_38pxh"
-                android:layout_width="wrap_content"
-                android:paddingBottom="@dimen/_10pxv"
+                android:ellipsize="end"
                 android:paddingStart="@dimen/_30pxh"
                 android:paddingTop="@dimen/_6pxv"
+                android:paddingBottom="@dimen/_10pxv"
                 android:singleLine="true"
                 android:text="@{eliminarVM.eliminarModel.txtNo}"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +68,7 @@
                 app:layout_constraintHorizontal_bias="0.12"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                style="@style/txtSolidRounded_8" tools:text="@string/lbl_no"/>
+                tools:text="@string/lbl_no" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

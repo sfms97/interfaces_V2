@@ -17,7 +17,6 @@ public class ActivityAAdirAsignaturaBindingImpl extends ActivityAAdirAsignaturaB
         sViewsWithIds.put(R.id.constraintGroup351, 2);
         sViewsWithIds.put(R.id.imagePngkey5, 3);
         sViewsWithIds.put(R.id.imageInterfaceFavor, 4);
-        sViewsWithIds.put(R.id.viewRectangle29, 5);
     }
     // views
     // variables
@@ -26,7 +25,7 @@ public class ActivityAAdirAsignaturaBindingImpl extends ActivityAAdirAsignaturaB
     // Inverse Binding Event Handlers
 
     public ActivityAAdirAsignaturaBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private ActivityAAdirAsignaturaBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
@@ -35,7 +34,6 @@ public class ActivityAAdirAsignaturaBindingImpl extends ActivityAAdirAsignaturaB
             , (android.widget.ImageView) bindings[4]
             , (android.widget.ImageView) bindings[3]
             , (android.widget.TextView) bindings[1]
-            , (android.view.View) bindings[5]
             );
         this.constraintAadirAsignatu.setTag(null);
         this.txtNombreDeLaAs.setTag(null);

@@ -31,9 +31,6 @@ public abstract class ActivityPerfilBinding extends ViewDataBinding {
   public final ImageView imageGroup;
 
   @NonNull
-  public final ImageView imageGroup1;
-
-  @NonNull
   public final ImageView imageGroup2;
 
   @NonNull
@@ -46,28 +43,19 @@ public abstract class ActivityPerfilBinding extends ViewDataBinding {
   public final ImageView imagePngkey2;
 
   @NonNull
-  public final ImageView imageRectangle7;
-
-  @NonNull
-  public final ImageView imageRectangle8;
-
-  @NonNull
-  public final TextView txt;
-
-  @NonNull
-  public final TextView txtBirthday;
+  public final ImageView imageView22;
 
   @NonNull
   public final TextView txtEditar;
-
-  @NonNull
-  public final TextView txtEmail;
 
   @NonNull
   public final TextView txtFirstname;
 
   @NonNull
   public final TextView txtLastname;
+
+  @NonNull
+  public final TextView txtLastname2;
 
   @NonNull
   public final TextView txtSubirFoto;
@@ -83,29 +71,24 @@ public abstract class ActivityPerfilBinding extends ViewDataBinding {
 
   protected ActivityPerfilBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout constraintGroup100, ConstraintLayout constraintGroup120,
-      ConstraintLayout constraintPerfil, ImageView imageGroup, ImageView imageGroup1,
-      ImageView imageGroup2, ImageView imageGroup3, ImageView imageMenu, ImageView imagePngkey2,
-      ImageView imageRectangle7, ImageView imageRectangle8, TextView txt, TextView txtBirthday,
-      TextView txtEditar, TextView txtEmail, TextView txtFirstname, TextView txtLastname,
+      ConstraintLayout constraintPerfil, ImageView imageGroup, ImageView imageGroup2,
+      ImageView imageGroup3, ImageView imageMenu, ImageView imagePngkey2, ImageView imageView22,
+      TextView txtEditar, TextView txtFirstname, TextView txtLastname, TextView txtLastname2,
       TextView txtSubirFoto, TextView txtTelfono, TextView txtUsername) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup100 = constraintGroup100;
     this.constraintGroup120 = constraintGroup120;
     this.constraintPerfil = constraintPerfil;
     this.imageGroup = imageGroup;
-    this.imageGroup1 = imageGroup1;
     this.imageGroup2 = imageGroup2;
     this.imageGroup3 = imageGroup3;
     this.imageMenu = imageMenu;
     this.imagePngkey2 = imagePngkey2;
-    this.imageRectangle7 = imageRectangle7;
-    this.imageRectangle8 = imageRectangle8;
-    this.txt = txt;
-    this.txtBirthday = txtBirthday;
+    this.imageView22 = imageView22;
     this.txtEditar = txtEditar;
-    this.txtEmail = txtEmail;
     this.txtFirstname = txtFirstname;
     this.txtLastname = txtLastname;
+    this.txtLastname2 = txtLastname2;
     this.txtSubirFoto = txtSubirFoto;
     this.txtTelfono = txtTelfono;
     this.txtUsername = txtUsername;

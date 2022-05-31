@@ -38,6 +38,15 @@ public abstract class ActivityVerApuntesBinding extends ViewDataBinding {
   public final ImageView imagePngkey3;
 
   @NonNull
+  public final ImageView imageView26;
+
+  @NonNull
+  public final ImageView imageView27;
+
+  @NonNull
+  public final ImageView imageView28;
+
+  @NonNull
   public final ImageView imageZoomIn;
 
   @NonNull
@@ -55,8 +64,8 @@ public abstract class ActivityVerApuntesBinding extends ViewDataBinding {
   protected ActivityVerApuntesBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout constraintGroup230, ConstraintLayout constraintGroup238,
       ImageView imageGroup37, ImageView imageImage1, ImageView imageMenu, ImageView imagePngkey3,
-      ImageView imageZoomIn, ScrollView scrollViewScrollview, TextView txtApuntes1fech,
-      TextView txtFsica) {
+      ImageView imageView26, ImageView imageView27, ImageView imageView28, ImageView imageZoomIn,
+      ScrollView scrollViewScrollview, TextView txtApuntes1fech, TextView txtFsica) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup230 = constraintGroup230;
     this.constraintGroup238 = constraintGroup238;
@@ -64,6 +73,9 @@ public abstract class ActivityVerApuntesBinding extends ViewDataBinding {
     this.imageImage1 = imageImage1;
     this.imageMenu = imageMenu;
     this.imagePngkey3 = imagePngkey3;
+    this.imageView26 = imageView26;
+    this.imageView27 = imageView27;
+    this.imageView28 = imageView28;
     this.imageZoomIn = imageZoomIn;
     this.scrollViewScrollview = scrollViewScrollview;
     this.txtApuntes1fech = txtApuntes1fech;

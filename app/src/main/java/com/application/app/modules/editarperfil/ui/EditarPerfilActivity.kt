@@ -23,7 +23,7 @@ public class EditarPerfilActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val recyclerEditarPerfilAdapter =
     RecyclerEditarPerfilAdapter(viewModel.recyclerEditarPerfilList.value?:mutableListOf())
-    binding.recyclerEditarPerfil.adapter = recyclerEditarPerfilAdapter
+    //binding.recyclerEditarPerfil.adapter = recyclerEditarPerfilAdapter
     recyclerEditarPerfilAdapter.setOnItemClickListener(
     object : RecyclerEditarPerfilAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : EditarPerfil1RowModel) {

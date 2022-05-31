@@ -52,76 +52,80 @@
             app:layout_constraintStart_toStartOf="@+id/constraintGroup280"
             app:layout_constraintTop_toBottomOf="@+id/constraintGroup280"
             style="@style/txtSansitaSwashedromanregular36" tools:text="@string/lbl_ocio_cercano"/>
-        <ImageView android:id="@+id/imageRectangle"
-            android:layout_height="0dp"
-            android:layout_marginTop="@dimen/_6pxv"
-            android:layout_width="0dp" android:scaleType="fitXY"
-            app:layout_constraintBottom_toTopOf="@+id/constraintGroup279"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHeight_percent="0.64"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageRectangle2"
-            cornerRadius="@{@dimen/_20pxh}"
-            imageRes="@{@drawable/img_rectangle}" tools:src="@drawable/img_rectangle"/>
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintGroup279"
-            android:layout_height="wrap_content"
+            style="@style/groupStyleorange_500_cc"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageRectangle" style="@style/groupStyleorange_500_cc">
-            <ImageView android:id="@+id/imageGroup"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageGroup"
+                android:layout_width="@dimen/_34pxh"
                 android:layout_height="@dimen/_23pxh"
-                android:layout_marginBottom="@dimen/_7pxv"
-                android:layout_marginEnd="@dimen/_76pxh"
                 android:layout_marginStart="@dimen/_33pxh"
                 android:layout_marginTop="@dimen/_2pxv"
-                android:layout_width="@dimen/_34pxh"
+                android:layout_marginEnd="@dimen/_76pxh"
+                android:layout_marginBottom="@dimen/_7pxv"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_group_8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageGroup1"
                 app:layout_constraintHorizontal_bias="0.1"
-                app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/imageGroup1"/>
-            <ImageView android:clickable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageGroup1" />
+
+            <ImageView
                 android:id="@+id/imageGroup1"
-                android:layout_height="@dimen/_24pxh"
-                android:layout_marginBottom="@dimen/_1pxv"
-                android:layout_marginEnd="@dimen/_64pxh"
-                android:layout_marginTop="@dimen/_1pxv"
                 android:layout_width="@dimen/_43pxh"
+                android:layout_height="@dimen/_24pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_marginEnd="@dimen/_64pxh"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:clickable="true"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_group_9"
                 app:layout_constraintBottom_toBottomOf="@+id/imageGroup"
                 app:layout_constraintEnd_toStartOf="@+id/imageGroup2"
                 app:layout_constraintHorizontal_bias="0.28"
-                app:layout_constraintStart_toEndOf="@+id/imageGroup" app:layout_constraintTop_toTopOf="@+id/imageGroup2"/>
-            <ImageView android:id="@+id/imageGroup2"
-                android:layout_height="@dimen/_24pxh"
-                android:layout_marginBottom="@dimen/_1pxv"
-                android:layout_marginEnd="@dimen/_27pxh"
-                android:layout_marginTop="@dimen/_6pxv"
+                app:layout_constraintStart_toEndOf="@+id/imageGroup"
+                app:layout_constraintTop_toTopOf="@+id/imageGroup2" />
+
+            <ImageView
+                android:id="@+id/imageGroup2"
                 android:layout_width="@dimen/_43pxh"
+                android:layout_height="@dimen/_24pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_marginEnd="@dimen/_27pxh"
+                android:layout_marginBottom="@dimen/_1pxv"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_group_10"
                 app:layout_constraintBottom_toBottomOf="@+id/imageGroup1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.36"
-                app:layout_constraintStart_toEndOf="@+id/imageGroup1" app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintStart_toEndOf="@+id/imageGroup1"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-        <ImageView android:id="@+id/imageRectangle2"
+
+        <ImageView
+            android:id="@+id/imageRectangle2"
+            android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginEnd="@dimen/_30pxh"
             android:layout_marginStart="@dimen/_26pxh"
-            android:layout_marginTop="@dimen/_1pxv"
-            android:layout_width="0dp" android:scaleType="fitXY"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:scaleType="fitXY"
             android:src="@drawable/img_rectangle2"
-            app:layout_constraintBottom_toTopOf="@+id/imageRectangle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.04"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/txtBuscar" app:layout_constraintWidth_percent="0.825"/>
+            app:layout_constraintTop_toTopOf="@+id/txtBuscar"
+            app:layout_constraintWidth_percent="0.825" />
+
         <ImageView android:id="@+id/imageGroup3"
             android:layout_height="@dimen/_13pxh"
             android:layout_marginBottom="@dimen/_6pxv"

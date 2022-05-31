@@ -14,11 +14,10 @@ public class ActivityEventoEliminadpBindingImpl extends ActivityEventoEliminadpB
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.constraintGroup358, 3);
-        sViewsWithIds.put(R.id.imagePngkey5, 4);
-        sViewsWithIds.put(R.id.imageInterfaceFavor, 5);
-        sViewsWithIds.put(R.id.imagePngkey6, 6);
-        sViewsWithIds.put(R.id.imageInterfaceFavor1, 7);
+        sViewsWithIds.put(R.id.constraintGroup358, 2);
+        sViewsWithIds.put(R.id.imagePngkey5, 3);
+        sViewsWithIds.put(R.id.imageInterfaceFavor, 4);
+        sViewsWithIds.put(R.id.imagePngkey6, 5);
     }
     // views
     // variables
@@ -27,22 +26,19 @@ public class ActivityEventoEliminadpBindingImpl extends ActivityEventoEliminadpB
     // Inverse Binding Event Handlers
 
     public ActivityEventoEliminadpBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
     }
     private ActivityEventoEliminadpBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[3]
-            , (android.widget.ImageView) bindings[5]
-            , (android.widget.ImageView) bindings[7]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[2]
             , (android.widget.ImageView) bindings[4]
-            , (android.widget.ImageView) bindings[6]
+            , (android.widget.ImageView) bindings[3]
+            , (android.widget.ImageView) bindings[5]
             , (android.widget.TextView) bindings[1]
-            , (android.widget.TextView) bindings[2]
             );
         this.constraintEventoEliminad.setTag(null);
         this.txtEventoEliminad.setTag(null);
-        this.txtEventoEliminad1.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();
@@ -112,9 +108,8 @@ public class ActivityEventoEliminadpBindingImpl extends ActivityEventoEliminadpB
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String eventoEliminadpVMEventoEliminadpModelTxtEventoEliminad = null;
-        java.lang.String eventoEliminadpVMEventoEliminadpModelTxtEventoEliminad1 = null;
         androidx.lifecycle.MutableLiveData<com.application.app.modules.eventoeliminadp.data.model.EventoEliminadpModel> eventoEliminadpVMEventoEliminadpModel = null;
+        java.lang.String eventoEliminadpVMEventoEliminadpModelTxtEventoEliminad = null;
         com.application.app.modules.eventoeliminadp.data.viewmodel.EventoEliminadpVM eventoEliminadpVM = mEventoEliminadpVM;
         com.application.app.modules.eventoeliminadp.data.model.EventoEliminadpModel eventoEliminadpVMEventoEliminadpModelGetValue = null;
 
@@ -138,8 +133,6 @@ public class ActivityEventoEliminadpBindingImpl extends ActivityEventoEliminadpB
                 if (eventoEliminadpVMEventoEliminadpModelGetValue != null) {
                     // read eventoEliminadpVM.eventoEliminadpModel.getValue().txtEventoEliminad
                     eventoEliminadpVMEventoEliminadpModelTxtEventoEliminad = eventoEliminadpVMEventoEliminadpModelGetValue.getTxtEventoEliminad();
-                    // read eventoEliminadpVM.eventoEliminadpModel.getValue().txtEventoEliminad1
-                    eventoEliminadpVMEventoEliminadpModelTxtEventoEliminad1 = eventoEliminadpVMEventoEliminadpModelGetValue.getTxtEventoEliminad1();
                 }
         }
         // batch finished
@@ -147,7 +140,6 @@ public class ActivityEventoEliminadpBindingImpl extends ActivityEventoEliminadpB
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEventoEliminad, eventoEliminadpVMEventoEliminadpModelTxtEventoEliminad);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEventoEliminad1, eventoEliminadpVMEventoEliminadpModelTxtEventoEliminad1);
         }
     }
     // Listener Stub Implementations

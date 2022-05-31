@@ -15,13 +15,11 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.application.app.R;
 import com.application.app.modules.menudesplegable.data.viewmodel.MenuDesplegableVM;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class ActivityMenuDesplegableBinding extends ViewDataBinding {
-  @NonNull
-  public final ConstraintLayout constraintGroup332;
-
   @NonNull
   public final ConstraintLayout constraintGroup340;
 
@@ -44,7 +42,19 @@ public abstract class ActivityMenuDesplegableBinding extends ViewDataBinding {
   public final ImageView imagePngkey4;
 
   @NonNull
+  public final ImageView imageView19;
+
+  @NonNull
+  public final ImageView imageView20;
+
+  @NonNull
+  public final ImageView imageView21;
+
+  @NonNull
   public final ScrollView scrollViewScrollview;
+
+  @NonNull
+  public final TextInputLayout tituloSubirApuntes;
 
   @NonNull
   public final TextView txtSeleccionaElF;
@@ -74,15 +84,15 @@ public abstract class ActivityMenuDesplegableBinding extends ViewDataBinding {
   protected MenuDesplegableVM mMenuDesplegableVM;
 
   protected ActivityMenuDesplegableBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, ConstraintLayout constraintGroup332,
-      ConstraintLayout constraintGroup340, ConstraintLayout constraintGroup345,
-      ConstraintLayout constraintGroup347, ImageView imageGroup, ImageView imageGroup73,
-      ImageView imageMenu, ImageView imagePngkey4, ScrollView scrollViewScrollview,
+      int _localFieldCount, ConstraintLayout constraintGroup340,
+      ConstraintLayout constraintGroup345, ConstraintLayout constraintGroup347,
+      ImageView imageGroup, ImageView imageGroup73, ImageView imageMenu, ImageView imagePngkey4,
+      ImageView imageView19, ImageView imageView20, ImageView imageView21,
+      ScrollView scrollViewScrollview, TextInputLayout tituloSubirApuntes,
       TextView txtSeleccionaElF, TextView txtSeleccionaLaA, TextView txtSubirApuntes,
       TextView txtSubirApuntes1, TextView txtTtulo, View viewRectangle10, View viewRectangle17,
       View viewRectangle21) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.constraintGroup332 = constraintGroup332;
     this.constraintGroup340 = constraintGroup340;
     this.constraintGroup345 = constraintGroup345;
     this.constraintGroup347 = constraintGroup347;
@@ -90,7 +100,11 @@ public abstract class ActivityMenuDesplegableBinding extends ViewDataBinding {
     this.imageGroup73 = imageGroup73;
     this.imageMenu = imageMenu;
     this.imagePngkey4 = imagePngkey4;
+    this.imageView19 = imageView19;
+    this.imageView20 = imageView20;
+    this.imageView21 = imageView21;
     this.scrollViewScrollview = scrollViewScrollview;
+    this.tituloSubirApuntes = tituloSubirApuntes;
     this.txtSeleccionaElF = txtSeleccionaElF;
     this.txtSeleccionaLaA = txtSeleccionaLaA;
     this.txtSubirApuntes = txtSubirApuntes;

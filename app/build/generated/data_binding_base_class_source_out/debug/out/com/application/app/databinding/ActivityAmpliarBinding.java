@@ -31,6 +31,15 @@ public abstract class ActivityAmpliarBinding extends ViewDataBinding {
   public final ImageView imageImage1;
 
   @NonNull
+  public final ImageView imageView11;
+
+  @NonNull
+  public final ImageView imageView12;
+
+  @NonNull
+  public final ImageView imageView13;
+
+  @NonNull
   public final ScrollView scrollViewScrollview;
 
   @Bindable
@@ -38,12 +47,16 @@ public abstract class ActivityAmpliarBinding extends ViewDataBinding {
 
   protected ActivityAmpliarBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout constraintAmpliar, ConstraintLayout constraintGroup404,
-      ImageView imageGroup97, ImageView imageImage1, ScrollView scrollViewScrollview) {
+      ImageView imageGroup97, ImageView imageImage1, ImageView imageView11, ImageView imageView12,
+      ImageView imageView13, ScrollView scrollViewScrollview) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintAmpliar = constraintAmpliar;
     this.constraintGroup404 = constraintGroup404;
     this.imageGroup97 = imageGroup97;
     this.imageImage1 = imageImage1;
+    this.imageView11 = imageView11;
+    this.imageView12 = imageView12;
+    this.imageView13 = imageView13;
     this.scrollViewScrollview = scrollViewScrollview;
   }
 

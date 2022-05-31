@@ -20,6 +20,9 @@ public class ActivitySubirFotoBindingImpl extends ActivitySubirFotoBinding  {
         sViewsWithIds.put(R.id.constraintGroup240, 9);
         sViewsWithIds.put(R.id.constraintRectangle21, 10);
         sViewsWithIds.put(R.id.imageGroup, 11);
+        sViewsWithIds.put(R.id.imageView23, 12);
+        sViewsWithIds.put(R.id.imageView24, 13);
+        sViewsWithIds.put(R.id.imageView25, 14);
     }
     // views
     // variables
@@ -28,7 +31,7 @@ public class ActivitySubirFotoBindingImpl extends ActivitySubirFotoBinding  {
     // Inverse Binding Event Handlers
 
     public ActivitySubirFotoBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 12, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 15, sIncludes, sViewsWithIds));
     }
     private ActivitySubirFotoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
@@ -40,6 +43,9 @@ public class ActivitySubirFotoBindingImpl extends ActivitySubirFotoBinding  {
             , (android.widget.ImageView) bindings[8]
             , (android.widget.ImageView) bindings[5]
             , (android.widget.ImageView) bindings[4]
+            , (android.widget.ImageView) bindings[12]
+            , (android.widget.ImageView) bindings[13]
+            , (android.widget.ImageView) bindings[14]
             , (android.widget.ScrollView) bindings[6]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[3]
@@ -120,12 +126,12 @@ public class ActivitySubirFotoBindingImpl extends ActivitySubirFotoBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        com.application.app.modules.subirfoto.data.viewmodel.SubirFotoVM subirFotoVM = mSubirFotoVM;
         java.lang.String subirFotoVMSubirFotoModelTxtSubirFoto = null;
-        com.application.app.modules.subirfoto.data.model.SubirFotoModel subirFotoVMSubirFotoModelGetValue = null;
-        androidx.lifecycle.MutableLiveData<com.application.app.modules.subirfoto.data.model.SubirFotoModel> subirFotoVMSubirFotoModel = null;
         java.lang.String subirFotoVMSubirFotoModelTxtSeleccionaLaF = null;
         java.lang.String subirFotoVMSubirFotoModelTxtSubir = null;
+        com.application.app.modules.subirfoto.data.viewmodel.SubirFotoVM subirFotoVM = mSubirFotoVM;
+        com.application.app.modules.subirfoto.data.model.SubirFotoModel subirFotoVMSubirFotoModelGetValue = null;
+        androidx.lifecycle.MutableLiveData<com.application.app.modules.subirfoto.data.model.SubirFotoModel> subirFotoVMSubirFotoModel = null;
 
         if ((dirtyFlags & 0x7L) != 0) {
 

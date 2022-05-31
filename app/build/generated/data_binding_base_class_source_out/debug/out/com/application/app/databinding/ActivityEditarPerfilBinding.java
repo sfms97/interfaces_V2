@@ -13,7 +13,6 @@ import androidx.core.widget.NestedScrollView;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import androidx.recyclerview.widget.RecyclerView;
 import com.application.app.R;
 import com.application.app.modules.editarperfil.data.viewmodel.EditarPerfilVM;
 import java.lang.Deprecated;
@@ -25,15 +24,6 @@ public abstract class ActivityEditarPerfilBinding extends ViewDataBinding {
 
   @NonNull
   public final ConstraintLayout constraintGroup160;
-
-  @NonNull
-  public final ConstraintLayout constraintGroup163;
-
-  @NonNull
-  public final ConstraintLayout constraintGroup165;
-
-  @NonNull
-  public final ConstraintLayout constraintGroup167;
 
   @NonNull
   public final ConstraintLayout constraintGroup181;
@@ -48,16 +38,10 @@ public abstract class ActivityEditarPerfilBinding extends ViewDataBinding {
   public final ImageView imageGroup;
 
   @NonNull
-  public final ImageView imageGroup1;
-
-  @NonNull
   public final ImageView imageGroup19;
 
   @NonNull
   public final ImageView imageInterfaceAdd2;
-
-  @NonNull
-  public final ImageView imageInterfaceAdd3;
 
   @NonNull
   public final ImageView imageMenu;
@@ -66,83 +50,76 @@ public abstract class ActivityEditarPerfilBinding extends ViewDataBinding {
   public final ImageView imagePngkey2;
 
   @NonNull
-  public final RecyclerView recyclerEditarPerfil;
+  public final ImageView imageView14;
+
+  @NonNull
+  public final ImageView imageView15;
+
+  @NonNull
+  public final ImageView imageView16;
 
   @NonNull
   public final NestedScrollView scrollViewScrollview;
 
   @NonNull
-  public final TextView txtEditar;
+  public final TextView txtBirthdayEditarPerfil;
 
   @NonNull
   public final TextView txtEditar1;
 
   @NonNull
-  public final TextView txtFirstname;
-
-  @NonNull
-  public final TextView txtFirstname1;
-
-  @NonNull
-  public final TextView txtLastname;
+  public final TextView txtEmailEditarPerfil2;
 
   @NonNull
   public final TextView txtLastname1;
 
   @NonNull
-  public final TextView txtTelfono;
+  public final TextView txtNombreEditarPerfil;
 
   @NonNull
   public final TextView txtTelfono1;
 
   @NonNull
-  public final TextView txtUsername;
+  public final TextView txtUsernameEditarPerfil;
 
   @NonNull
-  public final TextView txtUsername1;
+  public final View viewRectangle2;
 
   @Bindable
   protected EditarPerfilVM mEditarPerfilVM;
 
   protected ActivityEditarPerfilBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ConstraintLayout constraintGroup148, ConstraintLayout constraintGroup160,
-      ConstraintLayout constraintGroup163, ConstraintLayout constraintGroup165,
-      ConstraintLayout constraintGroup167, ConstraintLayout constraintGroup181,
-      ConstraintLayout constraintGroup183, ConstraintLayout constraintGroup186,
-      ImageView imageGroup, ImageView imageGroup1, ImageView imageGroup19,
-      ImageView imageInterfaceAdd2, ImageView imageInterfaceAdd3, ImageView imageMenu,
-      ImageView imagePngkey2, RecyclerView recyclerEditarPerfil,
-      NestedScrollView scrollViewScrollview, TextView txtEditar, TextView txtEditar1,
-      TextView txtFirstname, TextView txtFirstname1, TextView txtLastname, TextView txtLastname1,
-      TextView txtTelfono, TextView txtTelfono1, TextView txtUsername, TextView txtUsername1) {
+      ConstraintLayout constraintGroup181, ConstraintLayout constraintGroup183,
+      ConstraintLayout constraintGroup186, ImageView imageGroup, ImageView imageGroup19,
+      ImageView imageInterfaceAdd2, ImageView imageMenu, ImageView imagePngkey2,
+      ImageView imageView14, ImageView imageView15, ImageView imageView16,
+      NestedScrollView scrollViewScrollview, TextView txtBirthdayEditarPerfil, TextView txtEditar1,
+      TextView txtEmailEditarPerfil2, TextView txtLastname1, TextView txtNombreEditarPerfil,
+      TextView txtTelfono1, TextView txtUsernameEditarPerfil, View viewRectangle2) {
     super(_bindingComponent, _root, _localFieldCount);
     this.constraintGroup148 = constraintGroup148;
     this.constraintGroup160 = constraintGroup160;
-    this.constraintGroup163 = constraintGroup163;
-    this.constraintGroup165 = constraintGroup165;
-    this.constraintGroup167 = constraintGroup167;
     this.constraintGroup181 = constraintGroup181;
     this.constraintGroup183 = constraintGroup183;
     this.constraintGroup186 = constraintGroup186;
     this.imageGroup = imageGroup;
-    this.imageGroup1 = imageGroup1;
     this.imageGroup19 = imageGroup19;
     this.imageInterfaceAdd2 = imageInterfaceAdd2;
-    this.imageInterfaceAdd3 = imageInterfaceAdd3;
     this.imageMenu = imageMenu;
     this.imagePngkey2 = imagePngkey2;
-    this.recyclerEditarPerfil = recyclerEditarPerfil;
+    this.imageView14 = imageView14;
+    this.imageView15 = imageView15;
+    this.imageView16 = imageView16;
     this.scrollViewScrollview = scrollViewScrollview;
-    this.txtEditar = txtEditar;
+    this.txtBirthdayEditarPerfil = txtBirthdayEditarPerfil;
     this.txtEditar1 = txtEditar1;
-    this.txtFirstname = txtFirstname;
-    this.txtFirstname1 = txtFirstname1;
-    this.txtLastname = txtLastname;
+    this.txtEmailEditarPerfil2 = txtEmailEditarPerfil2;
     this.txtLastname1 = txtLastname1;
-    this.txtTelfono = txtTelfono;
+    this.txtNombreEditarPerfil = txtNombreEditarPerfil;
     this.txtTelfono1 = txtTelfono1;
-    this.txtUsername = txtUsername;
-    this.txtUsername1 = txtUsername1;
+    this.txtUsernameEditarPerfil = txtUsernameEditarPerfil;
+    this.viewRectangle2 = viewRectangle2;
   }
 
   public abstract void setEditarPerfilVM(@Nullable EditarPerfilVM editarPerfilVM);

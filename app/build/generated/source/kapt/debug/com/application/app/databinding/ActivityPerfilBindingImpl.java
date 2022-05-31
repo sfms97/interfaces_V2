@@ -14,15 +14,12 @@ public class ActivityPerfilBindingImpl extends ActivityPerfilBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.txt, 11);
-        sViewsWithIds.put(R.id.imageRectangle7, 12);
-        sViewsWithIds.put(R.id.imageRectangle8, 13);
-        sViewsWithIds.put(R.id.constraintGroup100, 14);
-        sViewsWithIds.put(R.id.imageGroup, 15);
-        sViewsWithIds.put(R.id.imageGroup1, 16);
-        sViewsWithIds.put(R.id.imageGroup2, 17);
-        sViewsWithIds.put(R.id.constraintGroup120, 18);
-        sViewsWithIds.put(R.id.imageGroup3, 19);
+        sViewsWithIds.put(R.id.constraintGroup100, 10);
+        sViewsWithIds.put(R.id.imageView22, 11);
+        sViewsWithIds.put(R.id.imageGroup, 12);
+        sViewsWithIds.put(R.id.imageGroup2, 13);
+        sViewsWithIds.put(R.id.constraintGroup120, 14);
+        sViewsWithIds.put(R.id.imageGroup3, 15);
     }
     // views
     // variables
@@ -31,39 +28,34 @@ public class ActivityPerfilBindingImpl extends ActivityPerfilBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityPerfilBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
     }
     private ActivityPerfilBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[10]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[14]
-            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[18]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
-            , (android.widget.ImageView) bindings[15]
-            , (android.widget.ImageView) bindings[16]
-            , (android.widget.ImageView) bindings[17]
-            , (android.widget.ImageView) bindings[19]
-            , (android.widget.ImageView) bindings[10]
-            , (android.widget.ImageView) bindings[9]
             , (android.widget.ImageView) bindings[12]
             , (android.widget.ImageView) bindings[13]
-            , (android.widget.TextView) bindings[11]
-            , (android.widget.TextView) bindings[5]
+            , (android.widget.ImageView) bindings[15]
+            , (android.widget.ImageView) bindings[9]
+            , (android.widget.ImageView) bindings[8]
+            , (android.widget.ImageView) bindings[11]
             , (android.widget.TextView) bindings[1]
-            , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[4]
-            , (android.widget.TextView) bindings[8]
-            , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[6]
+            , (android.widget.TextView) bindings[7]
+            , (android.widget.TextView) bindings[2]
+            , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[3]
             );
         this.constraintPerfil.setTag(null);
         this.imageMenu.setTag(null);
         this.imagePngkey2.setTag(null);
-        this.txtBirthday.setTag(null);
         this.txtEditar.setTag(null);
-        this.txtEmail.setTag(null);
         this.txtFirstname.setTag(null);
         this.txtLastname.setTag(null);
+        this.txtLastname2.setTag(null);
         this.txtSubirFoto.setTag(null);
         this.txtTelfono.setTag(null);
         this.txtUsername.setTag(null);
@@ -138,10 +130,8 @@ public class ActivityPerfilBindingImpl extends ActivityPerfilBinding  {
         }
         com.application.app.modules.perfil.data.model.PerfilModel perfilVMPerfilModelGetValue = null;
         java.lang.String perfilVMPerfilModelTxtEditar = null;
-        java.lang.String perfilVMPerfilModelTxtEmail = null;
         java.lang.String perfilVMPerfilModelTxtLastname = null;
         com.application.app.modules.perfil.data.viewmodel.PerfilVM perfilVM = mPerfilVM;
-        java.lang.String perfilVMPerfilModelTxtBirthday = null;
         java.lang.String perfilVMPerfilModelTxtUsername = null;
         androidx.lifecycle.MutableLiveData<com.application.app.modules.perfil.data.model.PerfilModel> perfilVMPerfilModel = null;
         java.lang.String perfilVMPerfilModelTxtSubirFoto = null;
@@ -168,12 +158,8 @@ public class ActivityPerfilBindingImpl extends ActivityPerfilBinding  {
                 if (perfilVMPerfilModelGetValue != null) {
                     // read perfilVM.perfilModel.getValue().txtEditar
                     perfilVMPerfilModelTxtEditar = perfilVMPerfilModelGetValue.getTxtEditar();
-                    // read perfilVM.perfilModel.getValue().txtEmail
-                    perfilVMPerfilModelTxtEmail = perfilVMPerfilModelGetValue.getTxtEmail();
                     // read perfilVM.perfilModel.getValue().txtLastname
                     perfilVMPerfilModelTxtLastname = perfilVMPerfilModelGetValue.getTxtLastname();
-                    // read perfilVM.perfilModel.getValue().txtBirthday
-                    perfilVMPerfilModelTxtBirthday = perfilVMPerfilModelGetValue.getTxtBirthday();
                     // read perfilVM.perfilModel.getValue().txtUsername
                     perfilVMPerfilModelTxtUsername = perfilVMPerfilModelGetValue.getTxtUsername();
                     // read perfilVM.perfilModel.getValue().txtSubirFoto
@@ -194,11 +180,10 @@ public class ActivityPerfilBindingImpl extends ActivityPerfilBinding  {
         if ((dirtyFlags & 0x7L) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtBirthday, perfilVMPerfilModelTxtBirthday);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEditar, perfilVMPerfilModelTxtEditar);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtEmail, perfilVMPerfilModelTxtEmail);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtFirstname, perfilVMPerfilModelTxtFirstname);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtLastname, perfilVMPerfilModelTxtLastname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtLastname2, perfilVMPerfilModelTxtLastname);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtSubirFoto, perfilVMPerfilModelTxtSubirFoto);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtTelfono, perfilVMPerfilModelTxtTelfono);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.txtUsername, perfilVMPerfilModelTxtUsername);
